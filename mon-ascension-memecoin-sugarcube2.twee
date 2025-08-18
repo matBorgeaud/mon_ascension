@@ -1,0 +1,282 @@
+:: intro_1
+Un matin gris, vous découvrez le concept de memecoin. L’espoir d’une ascension fulgurante naît, malgré la certitude du désastre.
+[[Explorer les forums|intro_2]]
+[[Créer un compte Twitter anonyme|lancement_1]]
+
+:: intro_2
+Vous hésitez : génie incompris ou futur ruiné ? Les forums regorgent de promesses et de sarcasmes.
+[[Rédiger un whitepaper absurde|lancement_1]]
+[[Lire les avertissements cyniques|ambiance_2]]
+[[Poster un meme provocateur|ambiance_3]]
+
+:: intro_3
+Premier tweet, premier doute. Le monde ne vous attend pas, mais vous insistez.
+[[Publier le tweet|lancement_2]]
+[[Supprimer tout et fuir|ambiance_4]]
+[[Acheter des followers bots|degen_5]]
+
+:: lancement_1
+Le whitepaper est prêt, truffé de blagues et de rêves. Qui osera investir ?
+[[Partager le whitepaper sur Twitter|lancement_2]]
+[[Envoyer à un influenceur douteux|degen_2]]
+[[Lancer un airdrop risqué|lancement_5]]
+
+:: lancement_2
+Les premiers followers arrivent, attirés par l’absurdité ou la cupidité.
+[[Créer un Discord|lancement_3]]
+[[Lancer un airdrop sauvage|ambiance_5]]
+[[Organiser un concours de memes NSFW|ambiance_7]]
+
+:: lancement_3
+Un premier investisseur anonyme envoie quelques tokens. Est-ce le début ou la fin ?
+[[Accepter l’investissement|lancement_4]]
+[[Refuser, par principe|ambiance_1]]
+
+:: lancement_4
+Le Discord s’anime, entre memes et menaces voilées.
+[[Lancer la première campagne de memes|ascension_1]]
+[[Modérer le Discord (en vain)|ambiance_2]]
+[[Organiser un raid Discord sur un rival|degen_4]]
+
+:: lancement_5
+Vous lancez un airdrop, mais le smart contract bug et distribue tout à un bot.
+[[Corriger le smart contract (trop tard)|ascension_1]]
+[[Accuser un bot de sabotage|ambiance_6]]
+[[Profiter du chaos pour faire un rug pull|degen_1]]
+
+:: ascension_1
+Le cours grimpe sans raison. L’euphorie masque la vacuité du projet.
+[[Acheter plus de tokens soi-même|ascension_2]]
+[[Utiliser un bot de trading douteux|ascension_6]]
+
+:: ascension_2
+Les médias s’en mêlent, cherchant le prochain scandale.
+[[Répondre aux médias|ascension_3]]
+[[Ignorer et continuer la hype|ambiance_4]]
+[[Mentir sur un partenariat|degen_2]]
+
+:: ascension_3
+Des influenceurs s’emparent du hashtag. La hype devient incontrôlable.
+[[Collaborer avec un influenceur|ascension_4]]
+[[Refuser toute collaboration|ambiance_5]]
+[[Lancer un NFT airdrop foireux|degen_6]]
+
+:: ascension_4
+Les promesses de Lambo fusent, mais la tension monte.
+[[Promettre la lune|ascension_5]]
+[[Rester vague et ironique|ambiance_1]]
+[[Organiser un DAO pour "démocratiser" le projet|degen_3]]
+
+:: ascension_5
+Vous recevez des offres d’échange douteuses. L’appât du gain brouille le jugement.
+[[Accepter une offre d’échange|sommet_1]]
+[[Refuser et attendre mieux|ambiance_2]]
+[[Tenter un pump & dump|degen_8]]
+
+:: ascension_6
+Un bot de trading défectueux fait exploser le volume, puis tout s’effondre.
+[[Arrêter le bot avant la catastrophe|sommet_1]]
+[[Laisser faire et prier|chute_1]]
+[[Accuser un rival de sabotage|degen_4]]
+
+:: degen_1
+Vous organisez un rug pull, mais personne ne remarque la disparition des fonds.
+[[Disparaître avec les fonds|fin_oubli]]
+[[Revenir sous un autre pseudo|intro_1]]
+[[Nier toute implication|ambiance_10]]
+
+:: degen_2
+Un faux partenariat avec une célébrité fait le buzz, jusqu’à la menace de procès.
+[[Publier le faux partenariat|ascension_3]]
+[[Se faire passer pour la célébrité|ambiance_5]]
+[[Recevoir une menace de procès|chute_3]]
+
+:: degen_3
+Vous créez un DAO, la communauté vous renverse en 24h.
+[[Accepter la destitution|chute_2]]
+[[Tenter un coup d’état numérique|ambiance_8]]
+[[Créer un nouveau DAO plus "degen"|degen_4]]
+
+:: degen_4
+Guerre de memes : votre rival lance un token parodique, la communauté se divise.
+[[Lancer une guerre de memes|ambiance_4]]
+[[Saboter le projet rival|chute_4]]
+[[Se faire bannir de Discord|ambiance_9]]
+
+:: degen_5
+Achat massif de followers bots, Twitter vous suspend pour spam.
+[[Essayer de manipuler les tendances|ascension_2]]
+[[Se faire suspendre de Twitter|chute_6]]
+
+:: degen_6
+NFT airdrop : le smart contract bug, tous les NFTs sont identiques et moches.
+[[Relancer le NFT airdrop|ascension_5]]
+[[Blâmer un développeur anonyme|ambiance_6]]
+[[Offrir les NFTs moches à la communauté|ambiance_7]]
+
+:: degen_7
+Un influenceur jaloux doxxe votre identité, la panique s’installe.
+[[Tenter de se justifier publiquement|ambiance_2]]
+[[Changer d’identité numérique|intro_3]]
+[[Se faire doxxer à nouveau|chute_5]]
+
+:: degen_8
+Vous tentez un pump & dump sur un exchange douteux, mais vous êtes le seul à acheter.
+[[Continuer le pump & dump|sommet_2]]
+[[Tout vendre discrètement|fin_oubli]]
+[[Se faire piéger par un bot rival|ambiance_6]]
+
+:: sommet_1
+Le memecoin atteint un sommet absurde. Vous êtes riche, sur le papier.
+[[Vendre tout|sommet_2]]
+[[HODL jusqu’à la mort|ambiance_3]]
+[[Lancer un nouveau token "anti-memecoin"|degen_5]]
+
+:: sommet_2
+Les médias vous sollicitent. L’ironie de la situation vous échappe à peine.
+[[Accorder une interview|sommet_3]]
+[[Refuser et tweeter un meme|ambiance_4]]
+[[Se vanter publiquement|degen_7]]
+
+:: sommet_3
+Un sentiment de vide s’installe. Que faire après l’absurdité du succès ?
+[[Chercher un nouveau sens|chute_1]]
+[[Se perdre dans la fête|ambiance_5]]
+[[Organiser un concours de memes NSFW|ambiance_7]]
+
+:: sommet_4
+Vous êtes invité à une émission crypto, puis ridiculisé en direct.
+[[Répondre à la provocation en direct|chute_2]]
+[[Fuir le plateau|ambiance_8]]
+[[Lancer un thread de shitposting|degen_5]]
+
+:: chute_1
+Un tweet malheureux fait tout basculer. La panique s’installe.
+[[Tenter de rassurer la communauté|chute_2]]
+[[Blâmer un rival|ambiance_1]]
+[[Organiser un pump désespéré|degen_8]]
+
+:: chute_2
+Les investisseurs fuient, les memes deviennent acides.
+[[Lancer un concours de rachat|chute_3]]
+[[Se cacher derrière l’anonymat|ambiance_2]]
+[[Créer un token "anti-régulateur"|degen_6]]
+
+:: chute_3
+Les régulateurs s’intéressent à votre projet. L’humour ne fait plus rire.
+[[Plaider l’innocence|chute_4]]
+[[Fuir à l’étranger (virtuellement)|ambiance_3]]
+[[Accuser la communauté|degen_3]]
+
+:: chute_4
+Les serveurs plantent, la communauté se déchire.
+[[Tenter un dernier pump|chute_5]]
+[[Abandonner le projet|ambiance_4]]
+[[Saboter un projet concurrent|degen_4]]
+
+:: chute_5
+Vous contemplez le désastre, partagé entre honte et soulagement.
+[[Accepter la chute|desillusion_1]]
+[[Tenter un comeback absurde|ambiance_5]]
+[[Lancer un NFT "apocalypse"|degen_6]]
+
+:: chute_6
+Vous êtes banni de tous les exchanges, même les plus obscurs.
+[[Supplier un exchange de vous relister|ambiance_9]]
+[[Créer un nouveau memecoin sous un autre nom|intro_1]]
+[[Accuser les bots de la chute|ambiance_10]]
+
+:: desillusion_1
+Les souvenirs de la gloire sont déjà lointains. Le silence numérique pèse.
+[[Poster un dernier message d’espoir|desillusion_2]]
+[[Supprimer tous les comptes|ambiance_1]]
+[[Lancer un thread Reddit de confession|desillusion_4]]
+
+:: desillusion_2
+Vous tentez de justifier l’échec, mais personne n’écoute.
+[[Blâmer le marché|desillusion_3]]
+[[Accepter la fatalité|ambiance_2]]
+[[Relancer un meme pour renaître|fin_renaissance]]
+
+:: desillusion_3
+Un dernier message, perdu dans le flux. La boucle est bouclée.
+[[Disparaître dans l’oubli|fin_oubli]]
+[[Tenter un dernier shitpost|ambiance_10]]
+[[Créer un NFT "souvenir"|ambiance_6]]
+
+:: desillusion_4
+Un thread Reddit vous consacre un mème posthume.
+[[Répondre aux trolls|ambiance_7]]
+[[Accepter la postérité absurde|fin_renaissance]]
+[[Créer un nouveau compte anonyme|intro_2]]
+
+:: fin_renaissance
+Contre toute attente, un nouveau meme relance l’intérêt. L’absurdité n’a pas de fin.
+[[Recommencer l’absurdité|intro_1]]
+[[Laisser le chaos s’installer|ambiance_4]]
+[[Lancer un nouveau DAO "ultra-degen"|degen_3]]
+
+:: fin_oubli
+Le projet sombre dans l’oubli, comme tant d’autres. Vous reprenez une vie normale, ou presque.
+[[Reprendre une vie normale|intro_1]]
+[[Regarder les nouveaux memes de loin|ambiance_5]]
+[[Créer un shitcoin secret|degen_1]]
+
+:: ambiance_1
+Un bot inonde le chat de spams philosophiques.
+[[Retour à l’histoire principale|intro_2]]
+[[S’enfoncer dans le chat|lancement_4]]
+
+:: ambiance_2
+Un investisseur vous envoie un GIF de chèvre, sans explication.
+[[Retour à l’histoire principale|lancement_2]]
+[[Répondre au GIF|ascension_2]]
+[[Envoyer un NFT moche en retour|degen_6]]
+
+:: ambiance_3
+Un bug affiche votre solde à zéro, sueurs froides garanties.
+[[Retour à l’histoire principale|ascension_1]]
+[[Chercher de l’aide sur Discord|chute_3]]
+[[Accuser le bot de sabotage|degen_8]]
+
+:: ambiance_4
+Un rival lance un memecoin parodique, la guerre des memes commence.
+[[Retour à l’histoire principale|sommet_2]]
+[[Lancer un meme de riposte|fin_renaissance]]
+[[Organiser un raid sur un rival|degen_4]]
+
+:: ambiance_5
+Un journaliste vous compare à un prophète… ou à un escroc.
+[[Retour à l’histoire principale|sommet_3]]
+[[Ignorer la presse|fin_oubli]]
+[[Lancer un shitpost viral|degen_7]]
+
+:: ambiance_6
+Un script miracle vide votre wallet en une transaction.
+[[Retour à l’histoire principale|lancement_5]]
+[[Se plaindre sur Telegram|ambiance_9]]
+[[Accuser un développeur fantôme|degen_2]]
+
+:: ambiance_7
+Un concours de memes NSFW dégénère en chaos.
+[[Retour à l’histoire principale|ascension_4]]
+[[Lancer un concours de memes NSFW|degen_6]]
+[[Se faire bannir du Discord|ambiance_9]]
+
+:: ambiance_8
+Un "whale" anonyme vous envoie un message cryptique.
+[[Retour à l’histoire principale|sommet_4]]
+[[Répondre au "whale" anonyme|degen_8]]
+[[Lancer un thread de shitposting|degen_5]]
+
+:: ambiance_9
+Vous êtes blacklisté de tous les groupes Telegram.
+[[Retour à l’histoire principale|chute_6]]
+[[Créer un nouveau groupe Telegram|intro_3]]
+[[Se faire blacklister à nouveau|ambiance_10]]
+
+:: ambiance_10
+Un faux leak de votre whitepaper circule, plus crédible que l’original.
+[[Retour à l’histoire principale|desillusion_3]]
+[[Publier le faux leak du whitepaper|degen_2]]
+[[Lancer un NFT "fake news"|ambiance_6]]
