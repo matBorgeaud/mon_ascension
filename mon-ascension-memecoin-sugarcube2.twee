@@ -1,222 +1,178 @@
 :: intro_1
-Un matin gris, vous découvrez le concept de memecoin. L’espoir d’une ascension fulgurante naît, malgré la certitude du désastre.
+Le matin gris se reflète sur l’écran froid de ton ordinateur. Tu tombes sur un article parlant de memecoins : fortunes éclairs, ruines tout aussi rapides. Un mélange étrange t’envahit : l’impression d’avoir trouvé un raccourci vers la gloire et la liberté, mais aussi la conviction sourde que tout ça ne peut finir qu’en catastrophe. Pourtant, l’idée te hante, tu ne parviens pas à détourner les yeux. Tu ressens cette excitation toxique qui ressemble à un piège mais que tu as envie de tester.
 [[Explorer les forums|intro_2]]
 [[Créer un compte Twitter anonyme|lancement_1]]
 
 :: intro_2
-Vous hésitez : génie incompris ou futur ruiné ? Les forums regorgent de promesses et de sarcasmes.
+Tu parcours les forums, noyé dans un flux de messages contradictoires. Certains parlent de "révolution monétaire" avec un sérieux presque religieux, d’autres se contentent de balancer des gifs cyniques et des blagues amères sur les naïfs qui se font plumer. Tu sens ton cœur osciller : et si tu étais à la fois le pigeon et le visionnaire ? Cette tension est addictive. Tu réalises que tu veux en être, même sans comprendre où ça mène.
 [[Rédiger un whitepaper absurde|lancement_1]]
-[[Lire les avertissements cyniques|ambiance_2]]
+[[Lire les avertissements cyniques jusqu’à l’overdose|ambiance_2]]
+
+:: intro_3
+Tu hésites sur ton premier tweet. Tes doigts flottent au-dessus du clavier, ton cerveau crie que tout ça est ridicule. Mais une part de toi chuchote : "personne ne t’attend, justement, c’est ta chance." Tu as l’impression d’envoyer une bouteille à la mer numérique. L’angoisse et l’excitation se mélangent dans ton estomac, au point que tu n’arrives plus à distinguer l’un de l’autre.
+[[Publier le tweet|lancement_2]]
+[[Supprimer tout et disparaître|ambiance_4]]
 
 :: lancement_1
-Le whitepaper est prêt, truffé de blagues et de rêves. Qui osera investir ?
+Tu as rédigé ton whitepaper. Ce n’est pas un document sérieux mais un patchwork de blagues, de graphiques absurdes et de promesses tellement délirantes qu’elles en deviennent séduisantes. En le relisant, tu te demandes : est-ce du génie ou du sabotage ? Une étrange fierté se mêle au doute. Tu sais que personne ne devrait y croire, mais tu sais aussi que certains mordront à l’hameçon. Et c’est tout ce qui compte.
 [[Partager le whitepaper sur Twitter|lancement_2]]
-[[Lancer un airdrop risqué|lancement_5]]
+[[Envoyer discrètement à un influenceur douteux|ascension_1]]
 
 :: lancement_2
-Les premiers followers arrivent, attirés par l’absurdité ou la cupidité.
+Quelques premiers followers apparaissent, attirés par l’absurdité du projet. Tu observes leurs réactions : certains rient franchement, d’autres semblent croire chaque mot. Tu comprends que la frontière entre ironie et cupidité est plus mince que tu ne l’imaginais. Chaque notification est une micro-décharge d’adrénaline, qui t’empêche de fermer l’onglet. Tu ressens déjà la mécanique de l’addiction.
 [[Créer un Discord|lancement_3]]
-[[Lancer un airdrop sauvage|ambiance_5]]
+[[Lancer un airdrop risqué|lancement_5]]
 
 :: lancement_3
-Un premier investisseur anonyme envoie quelques tokens. Est-ce le début ou la fin ?
-[[Accepter l’investissement|lancement_4]]
-[[Refuser, par principe|ambiance_1]]
+Ton Discord prend forme, encore bancal. Les premiers pseudos s’affichent, un mélange d’anonymes étranges, d’enthousiastes suspects et de trolls déjà agressifs. Un utilisateur t’envoie quelques tokens, sans commentaire. Tu restes devant l’écran, partagé entre euphorie et vertige. Est-ce vraiment le début d’une histoire ou déjà la preuve que tu es allé trop loin ?
+[[Accepter l’investissement et embrayer|lancement_4]]
+[[Refuser et tenter de rester "pur"|ambiance_1]]
 
 :: lancement_4
-Le Discord s’anime, entre memes et menaces voilées.
+Le Discord s’enflamme. Les memes s’empilent, entre humour noir et menaces déguisées. Tu découvres ce que signifie "animer une communauté" : courir après des gens imprévisibles, oscillant entre ferveur et rage. Une énergie frénétique circule, qui te donne l’impression de surfer sur une vague trop grande pour toi. Tu souris malgré toi : c’est le chaos, mais c’est ton chaos.
 [[Lancer la première campagne de memes|ascension_1]]
-[[Organiser un raid Discord sur un rival|degen_4]]
+[[Tenter de modérer en vain|ambiance_2]]
 
 :: lancement_5
-Vous lancez un airdrop, mais le smart contract bug et distribue tout à un bot.
-[[Corriger le smart contract|ascension_1]]
-[[Profiter du chaos pour faire un rug pull|degen_1]]
+Tu lances ton premier airdrop. Tu as l’impression de jouer au sorcier, seul dans ta chambre. Mais le smart contract bug et transfère tout à un bot inconnu. Tu restes figé devant l’écran, les yeux secs, incapable de comprendre si tu viens de tout perdre ou de créer un nouveau mythe involontaire. Ton cœur bat trop vite, ton cerveau refuse d’accepter l’évidence. Est-ce déjà la fin, ou juste un début tordu ?
+[[Corriger le smart contract trop tard|ascension_1]]
+[[Accuser publiquement un bot de sabotage|ambiance_6]]
 
 :: ascension_1
-Le cours grimpe sans raison. L’euphorie masque la vacuité du projet.
-[[Acheter plus de tokens soi-même|ascension_2]]
-[[Utiliser un bot de trading douteux|ascension_6]]
+Ton token s’envole sans raison. Tu n’as rien fait, rien promis, et pourtant le cours grimpe. L’écran clignote, les graphiques explosent. L’euphorie monte, mais tu sais au fond que c’est une illusion. La valeur n’existe pas, sauf dans les yeux de ceux qui veulent y croire. Et pourtant, toi aussi tu commences à y croire. La frontière entre ton mensonge et leur vérité s’efface.
+[[Acheter toi-même encore plus de tokens|ascension_2]]
+[[Laisser un bot de trading gérer le reste|ascension_6]]
 
 :: ascension_2
-Les médias s’en mêlent, cherchant le prochain scandale.
-[[Répondre aux médias|ascension_3]]
-[[Mentir sur un partenariat|degen_2]]
+Les médias commencent à flairer ton histoire. Articles racoleurs, journalistes en quête du prochain scandale ou du nouveau prophète. Ton pseudo apparaît dans des threads que tu n’as jamais lus. Tu réalises que tu as perdu le contrôle de ton propre récit. Tu hésites : continuer à jouer ou assumer un rôle que tu n’as jamais voulu ?
+[[Répondre aux médias avec aplomb|ascension_3]]
+[[Ignorer et alimenter la hype en silence|ambiance_4]]
 
 :: ascension_3
-Des influenceurs s’emparent du hashtag. La hype devient incontrôlable.
+Un influenceur reprend ton hashtag. Puis deux. Puis dix. La hype prend une vie propre, monstrueuse et fascinante. Ton projet, né d’une blague, devient un symbole que tu ne maîtrises plus. Les notifications pleuvent, tu te sens pris dans une tempête numérique. La peur se mélange à l’orgueil : et si, contre toute logique, tu étais en train de réussir ?
 [[Collaborer avec un influenceur|ascension_4]]
-[[Lancer un NFT airdrop foireux|degen_6]]
+[[Refuser toute collaboration et rester ironique|ambiance_5]]
 
 :: ascension_4
-Les promesses de Lambo fusent, mais la tension monte.
-[[Promettre la lune|ascension_5]]
-[[Organiser un DAO pour "démocratiser" le projet|degen_3]]
+Les promesses de richesse infinie fusent. "Lambo soon" écrivent-ils, mais toi tu n’arrives pas à rire. Tu sens une tension qui gronde derrière les blagues : attentes, frustrations, obsession collective. Ta parole a pris plus de poids que tu ne le voulais. Tu hésites : surfer sur la vague en promettant encore plus, ou te réfugier derrière une ironie fragile.
+[[Promettre la lune sans ciller|ascension_5]]
+[[Rester vague et fuyant|ambiance_1]]
 
 :: ascension_5
-Vous recevez des offres d’échange douteuses. L’appât du gain brouille le jugement.
-[[Accepter une offre d’échange|sommet_1]]
-[[Tenter un pump & dump|degen_8]]
+Des propositions d’échanges étranges affluent. Les chiffres te tournent la tête, mais ton jugement se brouille. Tu sais que la ligne entre "coup de génie" et "arnaque flagrante" est invisible, surtout à ce stade. Chaque choix te paraît irréversible, et pourtant tu cliques, presque machinalement. Le vertige est total.
+[[Accepter une offre douteuse|sommet_1]]
+[[Refuser et temporiser|ambiance_2]]
 
 :: ascension_6
-Un bot de trading défectueux fait exploser le volume, puis tout s’effondre.
-[[Arrêter le bot avant la catastrophe|sommet_1]]
-[[Laisser faire et prier|chute_1]]
+Ton bot de trading s’emballe, fait exploser les volumes et attire l’attention de tous. Puis, en quelques minutes, il déclenche une chute brutale. Tu te sens impuissant, témoin d’un désastre que tu as toi-même enclenché. Doigts crispés sur le clavier, tu hésites : couper la machine ou te laisser porter par l’inertie, en priant pour un miracle.
+[[Arrêter le bot et sauver la façade|sommet_1]]
+[[Laisser faire et espérer|chute_1]]
 
 :: sommet_1
-Le memecoin atteint un sommet absurde. Vous êtes riche, sur le papier.
-[[Vendre tout|sommet_2]]
-[[Lancer un nouveau token "anti-memecoin"|degen_5]]
+Ton memecoin atteint un sommet absurde. Tu es "riche", du moins sur le papier. Mais au lieu de jubiler, tu ressens un vide. La valeur que tu contemples est aussi fragile qu’un mirage. Tes mains tremblent, pas de joie, mais de fatigue. Tu sais que c’est le moment où tout bascule : vendre et sortir, ou rester accroché au rêve.
+[[Tout vendre maintenant|sommet_2]]
+[[Refuser de lâcher et HODL|ambiance_3]]
 
 :: sommet_2
-Les médias vous sollicitent. L’ironie de la situation vous échappe à peine.
+Les médias te sollicitent, des interviews, des invitations, comme si tu étais soudain une autorité. Tu entends tes propres réponses comme si elles venaient d’un autre. L’ironie de ta situation te pèse : un clown devenu gourou. Tu te demandes si tu contrôles encore quoi que ce soit ou si tu n’es déjà plus qu’une marionnette.
 [[Accorder une interview|sommet_3]]
-[[Se vanter publiquement|degen_7]]
+[[Refuser et tweeter un simple meme|ambiance_4]]
 
 :: sommet_3
-Un sentiment de vide s’installe. Que faire après l’absurdité du succès ?
+Au milieu des applaudissements et des promesses, un sentiment de vide s’installe. Ton succès est réel et absurde à la fois. Tu te surprends à chercher une issue : continuer à nourrir cette farce, ou tout arrêter avant de t’y perdre pour de bon. Tes pensées tournent en boucle, ton propre reflet t’apparaît étranger.
 [[Chercher un nouveau sens|chute_1]]
-[[Se perdre dans la fête|ambiance_5]]
+[[Se perdre dans une fête interminable|ambiance_5]]
 
 :: chute_1
-Un tweet malheureux fait tout basculer. La panique s’installe.
+Un tweet mal rédigé, une phrase ambiguë, et tout bascule. La communauté s’affole, les rumeurs s’emballent, le prix dégringole. Tu te débats dans un flux d’insultes, de panique et de menaces. Tu voudrais remonter le temps de dix minutes, mais c’est impossible. Le château de cartes tremble.
 [[Tenter de rassurer la communauté|chute_2]]
-[[Organiser un pump désespéré|degen_8]]
+[[Blâmer un rival pour détourner la colère|ambiance_1]]
 
 :: chute_2
-Les investisseurs fuient, les memes deviennent acides.
-[[Lancer un concours de rachat|chute_3]]
-[[Créer un token "anti-régulateur"|degen_6]]
+Les investisseurs fuient, les memes tournent au vitriol. Là où il y avait enthousiasme, il ne reste que rancune. Tu continues à écrire, comme si tes messages pouvaient réparer une brèche déjà béante. L’écran devient une arène hostile. Tu ressens une lassitude glaciale.
+[[Tenter un rachat absurde|chute_3]]
+[[Se cacher derrière ton anonymat|ambiance_2]]
 
 :: chute_3
-Les régulateurs s’intéressent à votre projet. L’humour ne fait plus rire.
-[[Plaider l’innocence|chute_4]]
-[[Accuser la communauté|degen_3]]
+Cette fois, ce sont les régulateurs qui débarquent. Tes blagues ne font plus rire personne. Les messages privés se remplissent de convocations, de menaces voilées, de "conseils amicaux". Ton identité virtuelle se fissure, laissant apparaître un être fatigué, seul. La panique est réelle.
+[[Plaider ton innocence|chute_4]]
+[[Fuir virtuellement à l’étranger|ambiance_3]]
 
 :: chute_4
-Les serveurs plantent, la communauté se déchire.
-[[Tenter un dernier pump|chute_5]]
-[[Saboter un projet concurrent|degen_4]]
+Les serveurs lâchent, le Discord s’effondre, et ta "communauté" se déchire en public. Tu observes ton projet mourir en direct, chaque refresh montrant un nouveau désastre. C’est une chute sans élégance, sans gloire, juste du bruit et de la poussière numérique.
+[[Tenter un dernier pump désespéré|chute_5]]
+[[Abandonner le projet d’un clic|ambiance_4]]
 
 :: chute_5
-Vous contemplez le désastre, partagé entre honte et soulagement.
+Assis devant ton écran, tu contemples le désastre. Tout s’est effondré, mais tu ressens une drôle de légèreté, presque du soulagement. La honte est là, mais aussi la certitude que tu n’as plus à maintenir l’illusion. Le silence, enfin.
 [[Accepter la chute|desillusion_1]]
-[[Lancer un NFT "apocalypse"|degen_6]]
+[[Tenter un comeback absurde|ambiance_5]]
 
 :: desillusion_1
-Les souvenirs de la gloire sont déjà lointains. Le silence numérique pèse.
+Les souvenirs de la gloire semblent déjà lointains, presque inventés. Le silence numérique est lourd, plus pesant que la fureur passée. Tu navigues entre nostalgie et fatigue, comme si tu sortais d’un mauvais rêve qui laisse malgré tout un goût sucré. Tu hésites : te justifier encore, ou accepter la fin.
 [[Poster un dernier message d’espoir|desillusion_2]]
-[[Lancer un thread Reddit de confession|desillusion_4]]
+[[Supprimer tous tes comptes|ambiance_1]]
 
 :: desillusion_2
-Vous tentez de justifier l’échec, mais personne n’écoute.
-[[Blâmer le marché|desillusion_3]]
-[[Relancer un meme pour renaître|fin_renaissance]]
+Tu publies quelques phrases pour expliquer, minimiser, rationaliser. Mais personne ne lit vraiment. Le monde est déjà passé à autre chose. Tes mots flottent dans le vide, comme une bouteille à la mer ignorée. Tu comprends que la partie est finie.
+[[Blâmer le marché dans un dernier sursaut|desillusion_3]]
+[[Accepter la fatalité|ambiance_2]]
 
 :: desillusion_3
-Un dernier message, perdu dans le flux. La boucle est bouclée.
+Ton dernier message se perd dans le flux, avalé sans un regard. La boucle est bouclée, ta voix se dissout dans l’océan numérique. Le silence qui suit est presque apaisant. C’est la fin, sans apothéose ni drame, juste l’oubli.
 [[Disparaître dans l’oubli|fin_oubli]]
-[[Créer un NFT "souvenir"|ambiance_6]]
+[[Relancer un meme pour renaître|fin_renaissance]]
 
 :: desillusion_4
-Un thread Reddit vous consacre un mème posthume.
+Un thread Reddit moque ton projet, t’élève malgré toi au rang de mème posthume. Tu lis leurs blagues, partagé entre amertume et un rire nerveux. Même ta chute est devenue matière première pour l’humour collectif. Tu n’as plus aucun contrôle.
 [[Accepter la postérité absurde|fin_renaissance]]
 [[Créer un nouveau compte anonyme|intro_2]]
 
 :: fin_renaissance
-Contre toute attente, un nouveau meme relance l’intérêt. L’absurdité n’a pas de fin.
+Contre toute attente, un nouveau meme lié à ton projet ressurgit. Tu n’y es pour rien, mais soudain ton nom circule à nouveau. L’absurdité de la renaissance te fait presque rire. Rien ne meurt vraiment ici, tout se recycle. Tu sens la tentation revenir.
 [[Recommencer l’absurdité|intro_1]]
-[[Lancer un nouveau DAO "ultra-degen"|degen_3]]
+[[Laisser le chaos vivre sans toi|ambiance_4]]
 
 :: fin_oubli
-Le projet sombre dans l’oubli, comme tant d’autres. Vous reprenez une vie normale, ou presque.
-[[Reprendre une vie normale|intro_1]]
-[[Créer un shitcoin secret|degen_1]]
+Ton projet a sombré, comme tant d’autres. Le temps passe, tu reprends une vie normale, du moins en apparence. Mais parfois, tu scrolles encore, et tu tombes sur un nouveau memecoin qui fait rire tout le monde. Tu ressens alors une pointe de nostalgie, presque de jalousie. Tu souris, amer. C’est terminé, mais pas vraiment.
+[[Regarder les nouveaux memes de loin|ambiance_5]]
 
 :: ambiance_1
-Un bot inonde le chat de spams philosophiques.
-[[Fin de l'événement|ambiance_1_fin]]
-
-:: ambiance_1_fin
-Vous avez quitté le chat, le monde réel vous attend.
-[[Continuer|lancement_2]]
+Un bot inonde ton chat de messages pseudo-philosophiques. Des phrases absurdes, parfois profondes, parfois vides. Tu te surprends à les lire avec attention, comme si elles contenaient un avertissement caché.
+[[Retour à l’histoire principale|lancement_4]]
 
 :: ambiance_2
-Un investisseur vous envoie un GIF de chèvre, sans explication.
-[[Fin de l'événement|ambiance_2_fin]]
-
-:: ambiance_2_fin
-Le GIF devient un souvenir absurde mais inoffensif.
-[[Continuer|ascension_2]]
+Un investisseur t’envoie un GIF de chèvre, sans aucune explication. Le canal entier se met à spéculer : est-ce un signe, un code secret, une insulte ? Tu souris nerveusement. Peut-être qu’il n’y a rien à comprendre.
+[[Retour à l’histoire principale|lancement_2]]
 
 :: ambiance_3
-Un bug affiche votre solde à zéro, sueurs froides garanties.
-[[Fin de l'événement|ambiance_3_fin]]
-
-:: ambiance_3_fin
-Après avoir rétabli votre solde, vous reprenez vos décisions.
-[[Continuer|ascension_1]]
+Ton solde s’affiche soudain à zéro. Sueurs froides, mains glacées. Après un rafraîchissement, tout revient à la normale. Était-ce un bug ou une prémonition ? Tu n’arrives pas à l’oublier.
+[[Retour à l’histoire principale|ascension_1]]
 
 :: ambiance_4
-Un thread incongru apparaît sur Reddit, semant la confusion.
-[[Fin de l'événement|ambiance_4_fin]]
-
-:: ambiance_4_fin
-Vous retournez à vos manigances avec une idée nouvelle.
-[[Continuer|ascension_2]]
+Un rival lance un memecoin parodique. Les memes de guerre circulent, hilarants et cruels. Ta communauté ricane, mais toi tu sens la fragilité : une simple blague peut tout retourner.
+[[Retour à l’histoire principale|sommet_2]]
 
 :: ambiance_5
-Une fête virtuelle s’organise sur Discord, chaos et memes inclus.
-[[Fin de l'événement|ambiance_5_fin]]
-
-:: ambiance_5_fin
-Vous reprenez vos décisions principales, encore secoué par l’absurde.
-[[Continuer|sommet_3]]
+Un journaliste te compare à la fois à un prophète et à un escroc. Tu relis la phrase plusieurs fois, incapable de décider si tu dois en rire ou t’en inquiéter. Tu ressens une fatigue douce, comme si la mascarade devenait trop lourde.
+[[Retour à l’histoire principale|sommet_3]]
 
 :: ambiance_6
-Un bot poste un NFT "souvenir" ridicule dans votre Discord.
-[[Fin de l'événement|ambiance_6_fin]]
-
-:: ambiance_6_fin
-Le meme disparaît lentement, vous reprenez la trame principale.
-[[Continuer|desillusion_3]]
+Un script inconnu vide ton wallet en une seule transaction. Tu fixes l’écran, incrédule. Ce n’est peut-être qu’un testnet, peut-être pas. Dans tous les cas, ton cœur ne l’a pas pris pour une blague.
+[[Retour à l’histoire principale|lancement_5]]
 
 :: ambiance_7
-La communauté rit d’un meme improbable, détournant l’attention du crash.
-[[Fin de l'événement|ambiance_7_fin]]
+Un concours de memes NSFW tourne au chaos. Images grotesques, débats absurdes, la moitié du Discord se fâche, l’autre rit aux larmes. Tu ne sais pas si tu es chef de projet ou simple clown de service.
+[[Retour à l’histoire principale|ascension_4]]
 
-:: ambiance_7_fin
-Vous reprenez vos décisions, légèrement rasséréné.
-[[Continuer|desillusion_4]]
+:: ambiance_8
+Un "whale" anonyme t’écrit en DM : "Le vrai jeu commence quand tout s’effondre." Tu restes figé, oscillant entre paranoïa et fascination. Tu te demandes si quelqu’un t’observe ou si c’est juste un troll habile.
+[[Retour à l’histoire principale|chute_3]]
 
-:: degen_1
-Vous effectuez un rug pull audacieux et vous éclatez financièrement… sur le papier.
-[[Continuer|ascension_1]]
+:: ambiance_9
+Tu découvres que tu as été blacklisté de plusieurs groupes Telegram sans explication. Comme si un réseau invisible s’était refermé autour de toi. Tu ressens une solitude glaciale, plus forte que la colère.
+[[Retour à l’histoire principale|chute_2]]
 
-:: degen_2
-Vous mentez sur un partenariat improbable, la hype monte encore.
-[[Continuer|ascension_3]]
-
-:: degen_3
-Votre DAO tourne au chaos total, la communauté est déconcertée.
-[[Continuer|ascension_4]]
-
-:: degen_4
-Vous organisez un sabotage, mais la police des memes vous repère.
-[[Continuer|chute_4]]
-
-:: degen_5
-Le nouveau token attire les spéculateurs et les trolls.
-[[Continuer|sommet_1]]
-
-:: degen_6
-Vous lancez un NFT foireux, la communauté s’en amuse ou s’énerve.
-[[Continuer|chute_5]]
-
-:: degen_7
-Votre vanité publique attire les médias, scandale garanti.
-[[Continuer|sommet_2]]
-
-:: degen_8
-Vous tentez un pump & dump risqué et la volatilité explose.
-[[Continuer|chute_2]]
+:: ambiance_10
+Un faux "leak" de ton whitepaper circule. Il est plus crédible, plus séduisant que l’original. Tu hésites entre l’envie de t’indigner et une admiration sincère pour celui qui l’a écrit.
+[[Retour à l’histoire principale|desillusion_3]]
