@@ -9,105 +9,54 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Histoire sans Titre.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Histoire sans Titre" startnode="27" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="21626edf-b1a8-4ea3-b64c-79a783d1c0cc" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* === BACKGROUND FULLSCREEN (SugarCube 2 / Twine Desktop) === */
-
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background: #0b0b0b; /* fallback si aucune image */
-}
-
-/* Racine du fond, fixe et non interactive */
-#bg-root {
-  position: fixed;
-  inset: 0;            /* top:0; right:0; bottom:0; left:0; */
-  z-index: 0;          /* sous le contenu */
-  pointer-events: none;
-}
-
-/* L'image couvre TOUJOURS tout l'écran (même si ratio ≠ viewport) */
-#bg-image {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;       /* clé : couvre toute la fenêtre */
-  object-position: center; /* centre l'image */
-  transition: opacity .25s ease;
-  opacity: 0;              /* évite le flash avant onload */
-}
-
-/* Overlay sombre par-dessus l'image (pour la lisibilité du texte) */
-#bg-overlay {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(
-    rgba(0,0,0,0.6) 0%,
-    rgba(0,0,0,0.2) 50%,
-    rgba(0,0,0,0.6) 100%
-  );
-}
-
-/* S'assurer que le contenu passe AU-DESSUS du fond */
-#story,
-#passages,
-#passage,
-#ui-bar {
-  position: relative;
-  z-index: 2;
-}
-
-/* Mise en page du passage (à adapter à ton thème) */
-/* Box du texte, arrondie et semi-transparente, en bas de l'écran */
-#passage {
-  position: absolute;         /* pour pouvoir le placer en bas */
-  bottom: 2%;                 /* petite marge du bas */
-  left: 50%;                  /* centré horizontalement */
-  transform: translateX(-50%);
-  max-width: 860px;
-  width: 90%;                 /* largeur flexible */
-  padding: 1.5rem;
-  background: rgba(0,0,0,0.6); /* assombrir l'image sous le texte */
-  border-radius: 12px;        /* coins arrondis */
-  color: #f5f5f5;             /* texte blanc */
-  z-index: 2;                 /* devant le fond */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.5); /* optionnel : léger relief */
-  line-height: 1.5;
-  font-size: 1rem;
-}
-
-/* Pour que le conteneur Story prenne tout l'écran (nécessaire pour absolute) */
-#story, #passages {
-  position: relative;
-  min-height: 100vh;
-}
-
-
-html, body {
-  height: 100%;
-}
-body {
-  background-color: #0b0b0b;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
+<tw-storydata name="Histoire sans Titre" startnode="27" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="21626edf-b1a8-4ea3-b64c-79a783d1c0cc" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* === Fond + overlay === */
+html, body { height: 100%; margin: 0; }
 body::before {
   content: "";
-  position: fixed;
-  inset: 0;
+  position: fixed; inset: 0;
   background: linear-gradient(180deg, rgba(0,0,0,.60), rgba(0,0,0,.35) 35%, rgba(0,0,0,.70));
-  pointer-events: none;
-  z-index: 0;
+  pointer-events: none; z-index: 0;
 }
-#passage {
-  position: relative;
-  z-index: 1;
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 1.2rem;
+
+/* === Box texte en bas === */
+tw-passage {
+  position: fixed; bottom: 7%;
+  left: 50%; transform: translateX(-50%);
+  width: 70%;
+  background: rgba(0,0,0,0.6);
+  border-radius: 12px;
+  padding: 2rem;
+  color: #f5f5f5;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  z-index: 10;
+  line-height: 1.6;
+  font-size: 1.6rem;
 }
+
+/* === Bouton Lexique === */
+tw-passage span#ui a {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  background: rgba(0,0,0,0.6);
+  color: white !important;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  z-index: 1000;
+  transition: background .2s ease;
+}
+
+tw-passage span#ui a:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+
+
+
 
 /* Fallback global: Start.png pour tout passage sans tag bg-... */
 tw-story {
@@ -273,11 +222,11 @@ tw-story[tags~="bg-Start"] {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript">/* Neutralisé: arrière-plan SugarCube désactivé, utilisation CSS UTM uniquement. */</script><tw-passagedata pid="1" name="Acte1Choix1A" tags="bg-Acte1Choix1A" position="400,25" size="100,100">Les forums sentent la naphtaline et la fièvre. Des prophètes en JPEG promettent la lune, des trolls jouent aux pompiers pyromanes. Tu lis des manifestes bricolés à la sueur tiède, des diagrammes qui confondent l’absurde et le sacré. Chaque ligne confirme que l’intelligence colle mal aux rendements promis, mais la contagion marche très bien. Tu inspires cette vapeur toxique, juste assez pour t’engourdir le jugement sans anesthésier le désir.
-[[Continuer-&gt;Acte1Rejoin1]]</tw-passagedata><tw-passagedata pid="2" name="Acte1Choix1B" tags="bg-Acte1Choix1B" position="525,25" size="100,100">Tu balances un tweet anonyme, moitié blague, moitié appât, assez ambigu pour séduire les cyniques et piéger les candides. Le message file comme une bouteille jetée d’un balcon: tu espères casser une vitre sans attirer le gardien. Les premiers likes tombent, l’ego se redresse; soudain, la honte ressemble à un investissement amortissable. Tu sens la machine sociale s’ébrouer, prête à avaler ton récit et recracher un symbole qui n’a jamais été toi.
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript">/* Neutralisé: arrière-plan SugarCube désactivé, utilisation CSS UTM uniquement. */</script><tw-passagedata pid="1" name="Acte1Choix1A" tags="bg-Acte1Choix1A" position="575,750" size="100,100">Les forums sentent l&#39;adrénaline et la fièvre du profit rapide. Des prophètes en JPEG promettent la lune, des trolls jouent aux pompiers pyromanes. Tu lis des manifestes bricolés à la sueur tiède, des diagrammes qui confondent l’absurde et le sacré. Chaque ligne confirme que l’intelligence colle mal aux rendements promis, mais la contagion marche très bien. Tu inspires cette vapeur toxique, juste assez pour t’engourdir le jugement sans anesthésier le désir.
+[[Continuer-&gt;Acte1Rejoin1]]</tw-passagedata><tw-passagedata pid="2" name="Acte1Choix1B" tags="bg-Acte1Choix1B" position="750,675" size="100,100">Tu balances un tweet anonyme, moitié blague, moitié appât, assez ambigu pour séduire les cyniques et piéger les candides. Le message file comme une bouteille jetée d’un balcon: tu espères casser une vitre sans attirer le gardien. Les premiers likes tombent, l’ego se redresse; soudain, la honte ressemble à un investissement amortissable. Tu sens la machine sociale s’ébrouer, prête à avaler ton récit et recracher un symbole qui n’a jamais été toi.
 [[Continuer-&gt;Acte1Rejoin1]]</tw-passagedata><tw-passagedata pid="3" name="Acte1Choix2A" tags="bg-Acte1Choix2A" position="775,25" size="100,100">Tu acceptes l’argent avec la classe d’un pickpocket en gants blancs. Le montant n’est pas indécent, juste assez pour déplacer la ligne morale d’un pas discret. Le chat s’illumine d’enthousiasmes intéressés et de conseils contradictoires. Tu feins la prudence, poste un emoji sûr de lui, et caches la petite brûlure au creux du ventre. On ne lave pas la main qui nourrit; on la parfume et on serre plus fort.
 [[Continuer-&gt;Acte1Rejoin2]]</tw-passagedata><tw-passagedata pid="4" name="Acte1Choix2B" tags="bg-Acte1Choix2B" position="900,25" size="100,100">Tu refuses, très publiquement, pour la beauté du geste et la photo de profil. La pureté sent bon sur la timeline, ça donne l’illusion d’être différent du troupeau. Évidemment, la foule s’excite quand même: personne n’aime un prêche, tout le monde adore un spectacle. Tu goûtes ce frisson idiot d’avoir “tenu”, tout en te demandant combien de temps cette vertu sous vide va survivre au prochain graphique vert.
-[[Continuer-&gt;Acte1Rejoin2]]</tw-passagedata><tw-passagedata pid="5" name="Acte1Hub" tags="bg-Acte1Hub" position="275,25" size="100,100">Curseur prêt au départ: tu hésites entre façade ironique et vraie faim de pump. Sur pump.fun, créer un ticker, choisir supply, décocher une taxe pour appâter, promettre un LP burn et prier pour un listing DEX propre: tout tient en trois clics et un joli mensonge. Tu te dis que c’est “performance artistique”, alors que tu vises surtout la courbe. Ici, le timing est roi et la nuance un bug; on récompense ceux qui pressent Mint avant de penser.
+[[Continuer-&gt;Acte1Rejoin2]]</tw-passagedata><tw-passagedata pid="5" name="Acte1Hub" tags="bg-Acte1Hub" position="375,775" size="100,100">Curseur prêt au départ: tu hésites entre façade ironique et vraie faim de pump. Sur pump.fun, créer un ticker, choisir supply, décocher une taxe pour appâter, promettre un LP burn et prier pour un listing DEX propre: tout tient en trois clics et un joli mensonge. Tu te dis que c’est “performance artistique”, alors que tu vises surtout la courbe. Ici, le timing est roi et la nuance un bug; on récompense ceux qui pressent Mint avant de penser.
 [[Fouiller les forums-&gt;Acte1Choix1A]]
 [[Créer un compte anonyme et tweeter-&gt;Acte1Choix1B]]</tw-passagedata><tw-passagedata pid="6" name="Acte1Rejoin1" tags="bg-Acte1Rejoin1" position="650,25" size="100,100">Whitepaper bâclé façon blague sérieuse; Discord en vrac; et la page pump.fun qui clignote au second écran. La bonding curve a déjà mordu, les premiers wallets crachent du SOL avec la dévotion d’un casino. Tu promets LP burn et “no presale” pour la forme, sachant très bien que le storytelling vaut plus que la tokenomics. Les DM alternent emojis de fusées et menaces molles. Tu fais semblant d’orchestrer; l’algorithme, lui, bat la mesure.
 [[Accepter un “investisseur” pressé-&gt;Acte1Choix2A]]
@@ -304,207 +253,24 @@ tw-story[tags~="bg-Start"] {
 [[Laisser faire et prier-&gt;Acte3Choix1B]]</tw-passagedata><tw-passagedata pid="22" name="Acte3Rejoin1" tags="bg-Acte3Rejoin1" position="1150,150" size="100,100">Un tweet ambigu—dix mots paresseux, mille interprétations armées. La foule s’échauffe, les rumeurs bricolent des bombes à retardement, et tu regardes l’incendie avec cette lucidité inutile qui arrive toujours trop tard. L’adrénaline a un goût métallique; l’histoire veut une chute et, pour une fois, tu es parfaitement disponible.
 [[Vendre, recycler le mème, se refaire-&gt;Acte3Bifurcation]]
 [[Se retirer en silence-&gt;Acte3Bifurcation]]
-[[Accuser et affronter-&gt;Acte3Bifurcation]]</tw-passagedata><tw-passagedata pid="23" name="Debug-Validation" tags="" position="900,275" size="100,100">Outil de vérification manuelle.
-Chemins:
-- Acte I: [[Hub-&gt;Acte1Hub]] → Choix1 [[A-&gt;Acte1Choix1A]] / [[B-&gt;Acte1Choix1B]] → [[Rejoin1-&gt;Acte1Rejoin1]] → Choix2 [[A-&gt;Acte1Choix2A]] / [[B-&gt;Acte1Choix2B]] → [[Rejoin2-&gt;Acte1Rejoin2]]
-- Acte II: [[Hub-&gt;Acte2Hub]] → Choix1 [[A-&gt;Acte2Choix1A]] / [[B-&gt;Acte2Choix1B]] → [[Rejoin1-&gt;Acte2Rejoin1]] → Choix2 [[A-&gt;Acte2Choix2A]] / [[B-&gt;Acte2Choix2B]] → [[Rejoin2-&gt;Acte2Rejoin2]]
-- Acte III: [[Hub-&gt;Acte3Hub]] → Choix [[A-&gt;Acte3Choix1A]] / [[B-&gt;Acte3Choix1B]] → [[Rejoin1-&gt;Acte3Rejoin1]] → [[Bifurcation-&gt;Acte3Bifurcation]] → [[A1-&gt;Acte3FinaleA1]] → [[Fin-Renaissance]] / [[B1-&gt;Acte3FinaleB1]] → [[Fin-Oubli]] / [[C1-&gt;Acte3FinaleC1]] → [[Fin-Chute]]
-Retour: [[Accueil-&gt;Start]]</tw-passagedata><tw-passagedata pid="24" name="Fin-Chute" tags="bg-Fin-Chute" position="775,275" size="100,100">Des mails froids, des regards tièdes, et cette lente dissolution publique qui n’a même pas la décence d’être spectaculaire. On te démonte méthodiquement, en oubliant de te détester vraiment: trop banal, trop vu. Le projet s’évapore en quelques rafraîchissements; toi, tu respires, presque soulagé. On ne sauve pas la face, on change seulement d’éclairage.
+[[Accuser et affronter-&gt;Acte3Bifurcation]]</tw-passagedata><tw-passagedata pid="23" name="Debug-Validation" tags="" position="400,600" size="100,100"></tw-passagedata><tw-passagedata pid="24" name="Fin-Chute" tags="bg-Fin-Chute" position="775,275" size="100,100">Des mails froids, des regards tièdes, et cette lente dissolution publique qui n’a même pas la décence d’être spectaculaire. On te démonte méthodiquement, en oubliant de te détester vraiment: trop banal, trop vu. Le projet s’évapore en quelques rafraîchissements; toi, tu respires, presque soulagé. On ne sauve pas la face, on change seulement d’éclairage.
 [[Validation debug-&gt;Debug-Validation]]</tw-passagedata><tw-passagedata pid="25" name="Fin-Oubli" tags="bg-Fin-Oubli" position="525,275" size="100,100">Le flux t’oublie avec une indifférence professionnelle. Tu réapprends des gestes sans métrique: marcher, cuisiner, lire sans rafraîchir. Parfois la jalousie te pique, douce et ridicule, devant le nouveau prophète jetable. Tu souris en coin: tu sais ce que coûte le feu d’artifice et combien il éclaire mal. Revenir n’est jamais impossible; c’est juste rarement souhaitable.
 [[Validation debug-&gt;Debug-Validation]]</tw-passagedata><tw-passagedata pid="26" name="Fin-Renaissance" tags="bg-Fin-Renaissance" position="275,275" size="100,100">Contre toute attente, ton nom recircule comme une vieille chanson devenue mode. Rien ne meurt vraiment ici: ça se recompose, s’édite, se vend. Tu sens la tentation revenir, fine et dangereuse, cette petite morsure qui promet d’être sage puis réclame tout. Tu te promets d’apprendre de la farce; tu sais déjà que tu mentiras. La boucle a bon goût quand on a la mémoire courte.
 [[Boucler et recommencer-&gt;Start]]
-[[Validation debug-&gt;Debug-Validation]]</tw-passagedata><tw-passagedata pid="27" name="Start" tags="bg-Start" position="150,550" size="100,100">Le matin gris se reflète sur l’écran froid et, dessus, tout parle memecoin: shitcoins à ticker débile, bonding curve qui grimpe, promesses de 100x en 24h. Sur pump.fun, des pages de mint alignent les graphiques comme des pièges à mouche; on y connecte son wallet, on jette du SOL, et on jure de brûler la LP après le launch. Les threads répètent DEX, slippage, tax 0/0, “no rug” en caps. Tu sais que c’est un carnaval de liquidité et de dopamine, mais ton pouce glisse déjà vers le bouton. Hors-scène, on ne loot jamais rien.
+[[Validation debug-&gt;Debug-Validation]]</tw-passagedata><tw-passagedata pid="27" name="Start" tags="bg-Start" position="125,750" size="100,100">(display: &quot;UI&quot;)
+Le matin gris se reflète sur l’écran froid et, dessus, tout parle memecoin: shitcoins à ticker débile, bonding curve qui grimpe, promesses de 100x en 24h. Sur pump.fun, des pages de mint alignent les graphiques comme des pièges à mouche; on y connecte son wallet, on jette du SOL, et on jure de brûler la LP après le launch. Les threads répètent DEX, slippage, tax 0/0, “no rug” en caps. Tu sais que c’est un carnaval de liquidité et de dopamine, mais ton pouce glisse déjà vers le bouton. Hors-scène, on ne loot jamais rien.
 [[Entrer dans l’arène-&gt;Acte1Hub]]
-[[Validation debug-&gt;Debug-Validation]]</tw-passagedata><tw-passagedata pid="28" name="Story JavaScript" tags="" position="1150,275" size="100,100">/* Neutralisé: arrière-plan géré via CSS UTM (tw-story + tags). */</tw-passagedata><tw-passagedata pid="29" name="StoryInit" tags="" position="500,475" size="100,100">Ce récit utilise des faux choix qui reconvergent rapidement. Aucune variable n’est utilisée.</tw-passagedata><tw-passagedata pid="30" name="StoryStylesheet" tags="" position="650,475" size="100,100">html, body {
-  height: 100%;
-}
-body {
-  background-color: #0b0b0b;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-body::before {
-  content: &quot;&quot;;
-  position: fixed;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,.60), rgba(0,0,0,.35) 35%, rgba(0,0,0,.70));
-  pointer-events: none;
-  z-index: 0;
-}
-#passage {
-  position: relative;
-  z-index: 1;
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 1.2rem;
-}
+[[Validation debug-&gt;Debug-Validation]]</tw-passagedata><tw-passagedata pid="28" name="Story JavaScript" tags="" position="1150,375" size="100,100"></tw-passagedata><tw-passagedata pid="29" name="UI" tags="" position="950,500" size="100,100">:: UI
+&lt;span id=&quot;ui&quot;&gt;[[Lexique]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="30" name="StoryStylesheet" tags="" position="1000,350" size="100,100"></tw-passagedata><tw-passagedata pid="31" name="Lexique" tags="" position="1025,650" size="100,100">:: Lexique
+Voici ton lexique :
 
-/* Fallback global: Start.png pour tout passage sans tag bg-... */
-tw-story {
-  background-image: url(&quot;images/story/Start.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+* **Mot 1** — définition
+* **Mot 2** — définition
 
-/* Arrière-plans par passage (méthode UTM) */
-tw-story[tags~=&quot;bg-Acte1Choix1A&quot;] {
-  background-image: url(&quot;images/story/Acte1Choix1A.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte1Choix1B&quot;] {
-  background-image: url(&quot;images/story/Acte1Choix1B.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte1Choix2A&quot;] {
-  background-image: url(&quot;images/story/Acte1Choix2A.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte1Choix2B&quot;] {
-  background-image: url(&quot;images/story/Acte1Choix2B.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte1Hub&quot;] {
-  background-image: url(&quot;images/story/Acte1Hub.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte1Rejoin1&quot;] {
-  background-image: url(&quot;images/story/Acte1Rejoin1.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte1Rejoin2&quot;] {
-  background-image: url(&quot;images/story/Acte1Rejoin2.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte2Choix1A&quot;] {
-  background-image: url(&quot;images/story/Acte2Choix1A.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte2Choix1B&quot;] {
-  background-image: url(&quot;images/story/Acte2Choix1B.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte2Choix2A&quot;] {
-  background-image: url(&quot;images/story/Acte2Choix2A.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte2Choix2B&quot;] {
-  background-image: url(&quot;images/story/Acte2Choix2B.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte2Hub&quot;] {
-  background-image: url(&quot;images/story/Acte2Hub.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte2Rejoin1&quot;] {
-  background-image: url(&quot;images/story/Acte2Rejoin1.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte2Rejoin2&quot;] {
-  background-image: url(&quot;images/story/Acte2Rejoin2.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte3Bifurcation&quot;] {
-  background-image: url(&quot;images/story/Acte3Bifurcation.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte3Choix1A&quot;] {
-  background-image: url(&quot;images/story/Acte3Choix1A.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte3Choix1B&quot;] {
-  background-image: url(&quot;images/story/Acte3Choix1B.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte3FinaleA1&quot;] {
-  background-image: url(&quot;images/story/Acte3FinaleA1.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte3FinaleB1&quot;] {
-  background-image: url(&quot;images/story/Acte3FinaleB1.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte3FinaleC1&quot;] {
-  background-image: url(&quot;images/story/Acte3FinaleC1.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte3Hub&quot;] {
-  background-image: url(&quot;images/story/Acte3Hub.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Acte3Rejoin1&quot;] {
-  background-image: url(&quot;images/story/Acte3Rejoin1.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Fin-Chute&quot;] {
-  background-image: url(&quot;images/story/Fin-Chute.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Fin-Oubli&quot;] {
-  background-image: url(&quot;images/story/Fin-Oubli.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Fin-Renaissance&quot;] {
-  background-image: url(&quot;images/story/Fin-Renaissance.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-tw-story[tags~=&quot;bg-Start&quot;] {
-  background-image: url(&quot;images/story/Start.png&quot;);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}</tw-passagedata></tw-storydata>
+(link-undo: &quot;Retour&quot;)
+
+
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
