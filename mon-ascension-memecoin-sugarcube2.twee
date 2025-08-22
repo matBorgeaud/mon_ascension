@@ -1,122 +1,159 @@
-:: StoryInit
-Ce récit utilise des faux choix qui reconvergent rapidement. Aucune variable n’est utilisée.
+:: StoryTitle
+Histoire sans Titre
 
-:: Start
-Le matin gris se reflète sur l’écran froid et, dessus, tout parle memecoin: shitcoins à ticker débile, bonding curve qui grimpe, promesses de 100x en 24h. Sur pump.fun, des pages de mint alignent les graphiques comme des pièges à mouche; on y connecte son wallet, on jette du SOL, et on jure de brûler la LP après le launch. Les threads répètent DEX, slippage, tax 0/0, “no rug” en caps. Tu sais que c’est un carnaval de liquidité et de dopamine, mais ton pouce glisse déjà vers le bouton. Hors-scène, on ne loot jamais rien.
-[[Entrer dans l’arène->Acte1Hub]]
-[[Validation debug->Debug-Validation]]
 
-:: Acte1Hub
+:: StoryData
+{
+  "ifid": "21626edf-b1a8-4ea3-b64c-79a783d1c0cc",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Acte1Choix1A {"position":"400,25","size":"100,100"}
+Les forums sentent la naphtaline et la fièvre. Des prophètes en JPEG promettent la lune, des trolls jouent aux pompiers pyromanes. Tu lis des manifestes bricolés à la sueur tiède, des diagrammes qui confondent l’absurde et le sacré. Chaque ligne confirme que l’intelligence colle mal aux rendements promis, mais la contagion marche très bien. Tu inspires cette vapeur toxique, juste assez pour t’engourdir le jugement sans anesthésier le désir.
+<img src="images/story/Acte1Choix1A.png" alt="Acte1Choix1A">
+[[Continuer->Acte1Rejoin1]]
+
+
+:: Acte1Choix1B {"position":"525,25","size":"100,100"}
+Tu balances un tweet anonyme, moitié blague, moitié appât, assez ambigu pour séduire les cyniques et piéger les candides. Le message file comme une bouteille jetée d’un balcon: tu espères casser une vitre sans attirer le gardien. Les premiers likes tombent, l’ego se redresse; soudain, la honte ressemble à un investissement amortissable. Tu sens la machine sociale s’ébrouer, prête à avaler ton récit et recracher un symbole qui n’a jamais été toi.
+<img src="images/story/Acte1Choix1B.png" alt="Acte1Choix1B">
+[[Continuer->Acte1Rejoin1]]
+
+
+:: Acte1Choix2A {"position":"775,25","size":"100,100"}
+Tu acceptes l’argent avec la classe d’un pickpocket en gants blancs. Le montant n’est pas indécent, juste assez pour déplacer la ligne morale d’un pas discret. Le chat s’illumine d’enthousiasmes intéressés et de conseils contradictoires. Tu feins la prudence, poste un emoji sûr de lui, et caches la petite brûlure au creux du ventre. On ne lave pas la main qui nourrit; on la parfume et on serre plus fort.
+<img src="images/story/Acte1Choix2A.png" alt="Acte1Choix2A">
+[[Continuer->Acte1Rejoin2]]
+
+
+:: Acte1Choix2B {"position":"900,25","size":"100,100"}
+Tu refuses, très publiquement, pour la beauté du geste et la photo de profil. La pureté sent bon sur la timeline, ça donne l’illusion d’être différent du troupeau. Évidemment, la foule s’excite quand même: personne n’aime un prêche, tout le monde adore un spectacle. Tu goûtes ce frisson idiot d’avoir “tenu”, tout en te demandant combien de temps cette vertu sous vide va survivre au prochain graphique vert.
+<img src="images/story/Acte1Choix2B.png" alt="Acte1Choix2B">
+[[Continuer->Acte1Rejoin2]]
+
+
+:: Acte1Hub {"position":"275,25","size":"100,100"}
 Curseur prêt au départ: tu hésites entre façade ironique et vraie faim de pump. Sur pump.fun, créer un ticker, choisir supply, décocher une taxe pour appâter, promettre un LP burn et prier pour un listing DEX propre: tout tient en trois clics et un joli mensonge. Tu te dis que c’est “performance artistique”, alors que tu vises surtout la courbe. Ici, le timing est roi et la nuance un bug; on récompense ceux qui pressent Mint avant de penser.
+<img src="images/story/Acte1Hub.png" alt="Acte1Hub">
 [[Fouiller les forums->Acte1Choix1A]]
 [[Créer un compte anonyme et tweeter->Acte1Choix1B]]
 
-:: Acte1Choix1A
-Les forums sentent la naphtaline et la fièvre. Des prophètes en JPEG promettent la lune, des trolls jouent aux pompiers pyromanes. Tu lis des manifestes bricolés à la sueur tiède, des diagrammes qui confondent l’absurde et le sacré. Chaque ligne confirme que l’intelligence colle mal aux rendements promis, mais la contagion marche très bien. Tu inspires cette vapeur toxique, juste assez pour t’engourdir le jugement sans anesthésier le désir.
-[[Continuer->Acte1Rejoin1]]
 
-:: Acte1Choix1B
-Tu balances un tweet anonyme, moitié blague, moitié appât, assez ambigu pour séduire les cyniques et piéger les candides. Le message file comme une bouteille jetée d’un balcon: tu espères casser une vitre sans attirer le gardien. Les premiers likes tombent, l’ego se redresse; soudain, la honte ressemble à un investissement amortissable. Tu sens la machine sociale s’ébrouer, prête à avaler ton récit et recracher un symbole qui n’a jamais été toi.
-[[Continuer->Acte1Rejoin1]]
-
-:: Acte1Rejoin1
+:: Acte1Rejoin1 {"position":"650,25","size":"100,100"}
 Whitepaper bâclé façon blague sérieuse; Discord en vrac; et la page pump.fun qui clignote au second écran. La bonding curve a déjà mordu, les premiers wallets crachent du SOL avec la dévotion d’un casino. Tu promets LP burn et “no presale” pour la forme, sachant très bien que le storytelling vaut plus que la tokenomics. Les DM alternent emojis de fusées et menaces molles. Tu fais semblant d’orchestrer; l’algorithme, lui, bat la mesure.
+<img src="images/story/Acte1Rejoin1.png" alt="Acte1Rejoin1">
 [[Accepter un “investisseur” pressé->Acte1Choix2A]]
 [[Rester pur et dire non->Acte1Choix2B]]
 
-:: Acte1Choix2A
-Tu acceptes l’argent avec la classe d’un pickpocket en gants blancs. Le montant n’est pas indécent, juste assez pour déplacer la ligne morale d’un pas discret. Le chat s’illumine d’enthousiasmes intéressés et de conseils contradictoires. Tu feins la prudence, poste un emoji sûr de lui, et caches la petite brûlure au creux du ventre. On ne lave pas la main qui nourrit; on la parfume et on serre plus fort.
-[[Continuer->Acte1Rejoin2]]
 
-:: Acte1Choix2B
-Tu refuses, très publiquement, pour la beauté du geste et la photo de profil. La pureté sent bon sur la timeline, ça donne l’illusion d’être différent du troupeau. Évidemment, la foule s’excite quand même: personne n’aime un prêche, tout le monde adore un spectacle. Tu goûtes ce frisson idiot d’avoir “tenu”, tout en te demandant combien de temps cette vertu sous vide va survivre au prochain graphique vert.
-[[Continuer->Acte1Rejoin2]]
-
-:: Acte1Rejoin2
+:: Acte1Rejoin2 {"position":"1025,25","size":"100,100"}
 Les notifications crépitent comme une friteuse: brûlantes, grasses, délicieuses et honteuses. Chaque bip confirme que tu as quitté la berge. Les mêmes phrases tournent en boucle—“early”, “next 100x”, “wen”—et tu découvres que l’espérance se décline surtout en fautes d’orthographe. Tu sais que la valeur est un mirage collectif, mais tu t’y abreuves sans ciller. Le mouvement suffit; l’histoire suivra, tordue si nécessaire.
+<img src="images/story/Acte1Rejoin2.png" alt="Acte1Rejoin2">
 [[La hype enfle->Acte2Hub]]
 
-:: Acte2Hub
+
+:: Acte2Choix1A {"position":"25,150","size":"100,100"}
+Tu réponds posément, avec ce ton d’expert qui marche surtout sur ceux qui veulent déjà te croire. Tu doses l’ironie pour paraître lucide, le sérieux pour paraître rassurant. Les questions sont des balles molles; tu les renvoies en souriant, ravi de ce tennis truqué. À la fin, tu n’as rien dit et pourtant la conviction a monté. Magie blanche: on appelle ça communication.
+<img src="images/story/Acte2Choix1A.png" alt="Acte2Choix1A">
+[[Continuer->Acte2Rejoin1]]
+
+
+:: Acte2Choix1B {"position":"150,150","size":"100,100"}
+Tu choisis le silence, posture d’ascète dans un temple de sirènes. Ne rien dire devient ton meilleur argument: plus tu t’absentes, plus on projette sur toi des promesses prêtes-à-porter. C’est confortable, jusqu’au moment où l’image te remplace. Tu regardes la foule vénérer un reflet qui te ressemble à peine; tu te contentes d’encaisser la ferveur tant que l’illusion tient debout.
+<img src="images/story/Acte2Choix1B.png" alt="Acte2Choix1B">
+[[Continuer->Acte2Rejoin1]]
+
+
+:: Acte2Choix2A {"position":"400,150","size":"100,100"}
+Tu signes une collab emballée dans des DM bourrés d’angles morts. L’autre te prête sa portée, tu lui prêtes ta légende: échange équitable entre complices pressés. Le ton devient plus gras, la promesse plus brillante, et l’on jure que tout est “communautaire” pour parfumer le mercantilisme. Le train accélère; personne ne vérifie les freins tant que la musique couvre le grincement.
+<img src="images/story/Acte2Choix2A.png" alt="Acte2Choix2A">
+[[Continuer->Acte2Rejoin2]]
+
+
+:: Acte2Choix2B {"position":"525,150","size":"100,100"}
+Tu refuses la main tendue avec un rictus élégant. L’ironie redevient ton bouclier: tu préfères l’image du franc-tireur aux effusions sponsorisées. Évidemment, la foule n’écoute pas la nuance—elle n’en a ni le temps ni l’envie. Le récit avance malgré toi, comme un chariot lancé en pente: tu peux sauter, pas le ralentir.
+<img src="images/story/Acte2Choix2B.png" alt="Acte2Choix2B">
+[[Continuer->Acte2Rejoin2]]
+
+
+:: Acte2Hub {"position":"1150,25","size":"100,100"}
 Les médias reniflent la piste comme des chiens dressés au sensationnel. Influenceurs et journalistes se disputent ton masque: visionnaire détendu ou crétin utile. Ton pseudo flotte au-dessus d’un public qui préfère l’intrigue au vrai. Tu sens ta voix comprimée dans un format vendable, prête à servir de carburant aux regards pressés. Ici, régner c’est s’user vite; régner longtemps, c’est disparaître proprement.
+<img src="images/story/Acte2Hub.png" alt="Acte2Hub">
 [[Répondre aux médias avec aplomb->Acte2Choix1A]]
 [[Se taire et nourrir la hype->Acte2Choix1B]]
 
-:: Acte2Choix1A
-Tu réponds posément, avec ce ton d’expert qui marche surtout sur ceux qui veulent déjà te croire. Tu doses l’ironie pour paraître lucide, le sérieux pour paraître rassurant. Les questions sont des balles molles; tu les renvoies en souriant, ravi de ce tennis truqué. À la fin, tu n’as rien dit et pourtant la conviction a monté. Magie blanche: on appelle ça communication.
-[[Continuer->Acte2Rejoin1]]
 
-:: Acte2Choix1B
-Tu choisis le silence, posture d’ascète dans un temple de sirènes. Ne rien dire devient ton meilleur argument: plus tu t’absentes, plus on projette sur toi des promesses prêtes-à-porter. C’est confortable, jusqu’au moment où l’image te remplace. Tu regardes la foule vénérer un reflet qui te ressemble à peine; tu te contentes d’encaisser la ferveur tant que l’illusion tient debout.
-[[Continuer->Acte2Rejoin1]]
-
-:: Acte2Rejoin1
+:: Acte2Rejoin1 {"position":"275,150","size":"100,100"}
 Un hashtag te glisse des mains et se met à courir tout seul, escorté par des comptes qui facturent la vertu et par des bots trop zélés. La métrique prend la parole à ta place; tu n’es plus l’auteur, juste la caution. L’emballement a ce parfum chimique qui masque la peur. Tu sais comment ça finit, mais l’inertie est une drogue qu’on avale en souriant à la caméra.
+<img src="images/story/Acte2Rejoin1.png" alt="Acte2Rejoin1">
 [[Collaborer avec un influenceur->Acte2Choix2A]]
 [[Refuser et rester à distance->Acte2Choix2B]]
 
-:: Acte2Choix2A
-Tu signes une collab emballée dans des DM bourrés d’angles morts. L’autre te prête sa portée, tu lui prêtes ta légende: échange équitable entre complices pressés. Le ton devient plus gras, la promesse plus brillante, et l’on jure que tout est “communautaire” pour parfumer le mercantilisme. Le train accélère; personne ne vérifie les freins tant que la musique couvre le grincement.
-[[Continuer->Acte2Rejoin2]]
 
-:: Acte2Choix2B
-Tu refuses la main tendue avec un rictus élégant. L’ironie redevient ton bouclier: tu préfères l’image du franc-tireur aux effusions sponsorisées. Évidemment, la foule n’écoute pas la nuance—elle n’en a ni le temps ni l’envie. Le récit avance malgré toi, comme un chariot lancé en pente: tu peux sauter, pas le ralentir.
-[[Continuer->Acte2Rejoin2]]
-
-:: Acte2Rejoin2
+:: Acte2Rejoin2 {"position":"650,150","size":"100,100"}
 “Lambo soon”, répètent-ils, parce que l’impatience a besoin d’emblèmes enfantins. Tu ne ris plus autant: la blague a pris du poids, elle laisse des marques. Ton nom sert de levier à des attentes que tu ne contrôles plus. Les regards cherchent la faille et la prophétie; les deux sont faciles à fabriquer. Tu respires court, déjà en haut de la vague.
+<img src="images/story/Acte2Rejoin2.png" alt="Acte2Rejoin2">
 [[Sommet absurde->Acte3Hub]]
 
-:: Acte3Hub
-Le cours grimpe sans raison autre que la volonté collective de ne pas regarder en bas. Riche sur le papier, vide dans la poitrine: la vieille antithèse sonne juste et inutile. Un bot s’emballe, fabrique des bougies qui montent comme des hymnes. Tu fais semblant de piloter, mais la cabine est décorative. On t’applaudit tant que tu souris au bon moment.
-[[Couper le bot->Acte3Choix1A]]
-[[Laisser faire et prier->Acte3Choix1B]]
 
-:: Acte3Choix1A
-Tu coupes la machine comme on arrête une chanson trop forte: le silence blesse presque plus. Les courbes s’aplatissent, les regards aussi. Tu goûtes une seconde de contrôle, cette chose ringarde que l’époque traite comme un vice. Tes doigts cessent de trembler, pas ton appétit. Tu sais que l’accalmie ne durera pas; personne ne paye pour de la sobriété.
-[[Continuer->Acte3Rejoin1]]
-
-:: Acte3Choix1B
-Tu laisses tourner, en bon croyant du hasard favorable. Les courbes chantent puis grincent; tu t’inventes des rituels pour garder l’illusion de maîtriser l’aléatoire. La communauté aime les capitaines mystiques, tant que la mer reste bleue. Tu souris sur commande, priant que la marée n’ait pas lu tes doutes.
-[[Continuer->Acte3Rejoin1]]
-
-:: Acte3Rejoin1
-Un tweet ambigu—dix mots paresseux, mille interprétations armées. La foule s’échauffe, les rumeurs bricolent des bombes à retardement, et tu regardes l’incendie avec cette lucidité inutile qui arrive toujours trop tard. L’adrénaline a un goût métallique; l’histoire veut une chute et, pour une fois, tu es parfaitement disponible.
-[[Vendre, recycler le mème, se refaire->Acte3Bifurcation]]
-[[Se retirer en silence->Acte3Bifurcation]]
-[[Accuser et affronter->Acte3Bifurcation]]
-
-:: Acte3Bifurcation
+:: Acte3Bifurcation {"position":"25,275","size":"100,100"}
 Le théâtre t’offre trois masques: le survivant opportun, le moine fatigué, le martyr teigneux. Peu importe lequel tu choisis, la scène est la même et le public s’en tirera avec la morale de son choix. Tu n’as plus qu’à livrer la posture, l’algorithme fera le reste. C’est presque reposant d’être réduit à un archétype rentable.
+<img src="images/story/Acte3Bifurcation.png" alt="Acte3Bifurcation">
 [[Relancer par l’absurde->Acte3FinaleA1]]
 [[Sortir du cadre->Acte3FinaleB1]]
 [[Tenir tête aux vagues->Acte3FinaleC1]]
 
-:: Acte3FinaleA1
+
+:: Acte3Choix1A {"position":"900,150","size":"100,100"}
+Tu coupes la machine comme on arrête une chanson trop forte: le silence blesse presque plus. Les courbes s’aplatissent, les regards aussi. Tu goûtes une seconde de contrôle, cette chose ringarde que l’époque traite comme un vice. Tes doigts cessent de trembler, pas ton appétit. Tu sais que l’accalmie ne durera pas; personne ne paye pour de la sobriété.
+<img src="images/story/Acte3Choix1A.png" alt="Acte3Choix1A">
+[[Continuer->Acte3Rejoin1]]
+
+
+:: Acte3Choix1B {"position":"1025,150","size":"100,100"}
+Tu laisses tourner, en bon croyant du hasard favorable. Les courbes chantent puis grincent; tu t’inventes des rituels pour garder l’illusion de maîtriser l’aléatoire. La communauté aime les capitaines mystiques, tant que la mer reste bleue. Tu souris sur commande, priant que la marée n’ait pas lu tes doutes.
+<img src="images/story/Acte3Choix1B.png" alt="Acte3Choix1B">
+[[Continuer->Acte3Rejoin1]]
+
+
+:: Acte3FinaleA1 {"position":"150,275","size":"100,100"}
 Tu rallumes la farce: nouveau mème, ancien ressort. L’absurde recycle mieux que le plastique, et les timelines adorent les revenants tant qu’ils ne demandent pas pardon. Tu maquilles la débâcle en renaissance, rabotes les angles, et promets moins fort pour encaisser plus longtemps. La musique repart: personne ne vérifie qui tient la clef du volume.
+<img src="images/story/Acte3FinaleA1.png" alt="Acte3FinaleA1">
 [[Fin-Renaissance]]
 
-:: Fin-Renaissance
-Contre toute attente, ton nom recircule comme une vieille chanson devenue mode. Rien ne meurt vraiment ici: ça se recompose, s’édite, se vend. Tu sens la tentation revenir, fine et dangereuse, cette petite morsure qui promet d’être sage puis réclame tout. Tu te promets d’apprendre de la farce; tu sais déjà que tu mentiras. La boucle a bon goût quand on a la mémoire courte.
-[[Boucler et recommencer->Start]]
-[[Validation debug->Debug-Validation]]
 
-:: Acte3FinaleB1
+:: Acte3FinaleB1 {"position":"400,275","size":"100,100"}
 Tu fermes les onglets comme on éteint un bar trop bruyant: un à un, sans regarder la caisse. Le silence colle aux murs et révèle les traces grasses du spectacle. Personne n’applaudit la sobriété, mais elle a le mérite de ne pas t’exploser au visage. Tu retrouves le poids de ton propre nom, plus léger que prévu, plus lourd qu’espéré.
+<img src="images/story/Acte3FinaleB1.png" alt="Acte3FinaleB1">
 [[Fin-Oubli]]
 
-:: Fin-Oubli
-Le flux t’oublie avec une indifférence professionnelle. Tu réapprends des gestes sans métrique: marcher, cuisiner, lire sans rafraîchir. Parfois la jalousie te pique, douce et ridicule, devant le nouveau prophète jetable. Tu souris en coin: tu sais ce que coûte le feu d’artifice et combien il éclaire mal. Revenir n’est jamais impossible; c’est juste rarement souhaitable.
-[[Validation debug->Debug-Validation]]
 
-:: Acte3FinaleC1
+:: Acte3FinaleC1 {"position":"650,275","size":"100,100"}
 Tu choisis la confrontation hygiénique: threads, accusations, posture de justicier tardif. Les rivaux te parodient avec talent; les messages officiels s’invitent, polis et menaçants. Tes blagues ne protègent plus rien: l’ironie n’est pas un casque, juste un miroir propre. Tu tiens le regard, parce qu’il reste encore un peu d’orgueil à brûler.
+<img src="images/story/Acte3FinaleC1.png" alt="Acte3FinaleC1">
 [[Fin-Chute]]
 
-:: Fin-Chute
-Des mails froids, des regards tièdes, et cette lente dissolution publique qui n’a même pas la décence d’être spectaculaire. On te démonte méthodiquement, en oubliant de te détester vraiment: trop banal, trop vu. Le projet s’évapore en quelques rafraîchissements; toi, tu respires, presque soulagé. On ne sauve pas la face, on change seulement d’éclairage.
-[[Validation debug->Debug-Validation]]
 
-:: Debug-Validation
+:: Acte3Hub {"position":"775,150","size":"100,100"}
+Le cours grimpe sans raison autre que la volonté collective de ne pas regarder en bas. Riche sur le papier, vide dans la poitrine: la vieille antithèse sonne juste et inutile. Un bot s’emballe, fabrique des bougies qui montent comme des hymnes. Tu fais semblant de piloter, mais la cabine est décorative. On t’applaudit tant que tu souris au bon moment.
+<img src="images/story/Acte3Hub.png" alt="Acte3Hub">
+[[Couper le bot->Acte3Choix1A]]
+[[Laisser faire et prier->Acte3Choix1B]]
+
+
+:: Acte3Rejoin1 {"position":"1150,150","size":"100,100"}
+Un tweet ambigu—dix mots paresseux, mille interprétations armées. La foule s’échauffe, les rumeurs bricolent des bombes à retardement, et tu regardes l’incendie avec cette lucidité inutile qui arrive toujours trop tard. L’adrénaline a un goût métallique; l’histoire veut une chute et, pour une fois, tu es parfaitement disponible.
+<img src="images/story/Acte3Rejoin1.png" alt="Acte3Rejoin1">
+[[Vendre, recycler le mème, se refaire->Acte3Bifurcation]]
+[[Se retirer en silence->Acte3Bifurcation]]
+[[Accuser et affronter->Acte3Bifurcation]]
+
+
+:: Debug-Validation {"position":"900,275","size":"100,100"}
 Outil de vérification manuelle.
 Chemins:
 - Acte I: [[Hub->Acte1Hub]] → Choix1 [[A->Acte1Choix1A]] / [[B->Acte1Choix1B]] → [[Rejoin1->Acte1Rejoin1]] → Choix2 [[A->Acte1Choix2A]] / [[B->Acte1Choix2B]] → [[Rejoin2->Acte1Rejoin2]]
@@ -124,103 +161,139 @@ Chemins:
 - Acte III: [[Hub->Acte3Hub]] → Choix [[A->Acte3Choix1A]] / [[B->Acte3Choix1B]] → [[Rejoin1->Acte3Rejoin1]] → [[Bifurcation->Acte3Bifurcation]] → [[A1->Acte3FinaleA1]] → [[Fin-Renaissance]] / [[B1->Acte3FinaleB1]] → [[Fin-Oubli]] / [[C1->Acte3FinaleC1]] → [[Fin-Chute]]
 Retour: [[Accueil->Start]]
 
-:: StoryStylesheet
-html, body {
-  height: 100%;
-}
-body {
-  background-color: #0b0b0b;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,.60), rgba(0,0,0,.35) 35%, rgba(0,0,0,.70));
-  pointer-events: none;
-  z-index: 0;
-}
-#passage {
-  position: relative;
-  z-index: 1;
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 1.2rem;
-}
 
-/* Mapping image de fond par passage (images .png dans images/story/) */
-body[data-passage="Start"] { background-image: url("images/story/Start.png"); }
+:: Fin-Chute {"position":"775,275","size":"100,100"}
+Des mails froids, des regards tièdes, et cette lente dissolution publique qui n’a même pas la décence d’être spectaculaire. On te démonte méthodiquement, en oubliant de te détester vraiment: trop banal, trop vu. Le projet s’évapore en quelques rafraîchissements; toi, tu respires, presque soulagé. On ne sauve pas la face, on change seulement d’éclairage.
+<img src="images/story/Fin-Chute.png" alt="Fin-Chute">
+[[Validation debug->Debug-Validation]]
 
-body[data-passage="Acte1Hub"] { background-image: url("images/story/Acte1Hub.png"); }
-body[data-passage="Acte1Choix1A"] { background-image: url("images/story/Acte1Choix1A.png"); }
-body[data-passage="Acte1Choix1B"] { background-image: url("images/story/Acte1Choix1B.png"); }
-body[data-passage="Acte1Rejoin1"] { background-image: url("images/story/Acte1Rejoin1.png"); }
-body[data-passage="Acte1Choix2A"] { background-image: url("images/story/Acte1Choix2A.png"); }
-body[data-passage="Acte1Choix2B"] { background-image: url("images/story/Acte1Choix2B.png"); }
-body[data-passage="Acte1Rejoin2"] { background-image: url("images/story/Acte1Rejoin2.png"); }
 
-body[data-passage="Acte2Hub"] { background-image: url("images/story/Acte2Hub.png"); }
-body[data-passage="Acte2Choix1A"] { background-image: url("images/story/Acte2Choix1A.png"); }
-body[data-passage="Acte2Choix1B"] { background-image: url("images/story/Acte2Choix1B.png"); }
-body[data-passage="Acte2Rejoin1"] { background-image: url("images/story/Acte2Rejoin1.png"); }
-body[data-passage="Acte2Choix2A"] { background-image: url("images/story/Acte2Choix2A.png"); }
-body[data-passage="Acte2Choix2B"] { background-image: url("images/story/Acte2Choix2B.png"); }
-body[data-passage="Acte2Rejoin2"] { background-image: url("images/story/Acte2Rejoin2.png"); }
+:: Fin-Oubli {"position":"525,275","size":"100,100"}
+Le flux t’oublie avec une indifférence professionnelle. Tu réapprends des gestes sans métrique: marcher, cuisiner, lire sans rafraîchir. Parfois la jalousie te pique, douce et ridicule, devant le nouveau prophète jetable. Tu souris en coin: tu sais ce que coûte le feu d’artifice et combien il éclaire mal. Revenir n’est jamais impossible; c’est juste rarement souhaitable.
+<img src="images/story/Fin-Oubli.png" alt="Fin-Oubli">
+[[Validation debug->Debug-Validation]]
 
-body[data-passage="Acte3Hub"] { background-image: url("images/story/Acte3Hub.png"); }
-body[data-passage="Acte3Choix1A"] { background-image: url("images/story/Acte3Choix1A.png"); }
-body[data-passage="Acte3Choix1B"] { background-image: url("images/story/Acte3Choix1B.png"); }
-body[data-passage="Acte3Rejoin1"] { background-image: url("images/story/Acte3Rejoin1.png"); }
-body[data-passage="Acte3Bifurcation"] { background-image: url("images/story/Acte3Bifurcation.png"); }
 
-body[data-passage="Acte3FinaleA1"] { background-image: url("images/story/Acte3FinaleA1.png"); }
-body[data-passage="Fin-Renaissance"] { background-image: url("images/story/Fin-Renaissance.png"); }
+:: Fin-Renaissance {"position":"275,275","size":"100,100"}
+Contre toute attente, ton nom recircule comme une vieille chanson devenue mode. Rien ne meurt vraiment ici: ça se recompose, s’édite, se vend. Tu sens la tentation revenir, fine et dangereuse, cette petite morsure qui promet d’être sage puis réclame tout. Tu te promets d’apprendre de la farce; tu sais déjà que tu mentiras. La boucle a bon goût quand on a la mémoire courte.
+<img src="images/story/Fin-Renaissance.png" alt="Fin-Renaissance">
+[[Boucler et recommencer->Start]]
+[[Validation debug->Debug-Validation]]
 
-body[data-passage="Acte3FinaleB1"] { background-image: url("images/story/Acte3FinaleB1.png"); }
-body[data-passage="Fin-Oubli"] { background-image: url("images/story/Fin-Oubli.png"); }
 
-body[data-passage="Acte3FinaleC1"] { background-image: url("images/story/Acte3FinaleC1.png"); }
-body[data-passage="Fin-Chute"] { background-image: url("images/story/Fin-Chute.png"); }
+:: Start {"position":"125,25","size":"100,100"}
+Le matin gris se reflète sur l’écran froid et, dessus, tout parle memecoin: shitcoins à ticker débile, bonding curve qui grimpe, promesses de 100x en 24h. Sur pump.fun, des pages de mint alignent les graphiques comme des pièges à mouche; on y connecte son wallet, on jette du SOL, et on jure de brûler la LP après le launch. Les threads répètent DEX, slippage, tax 0/0, “no rug” en caps. Tu sais que c’est un carnaval de liquidité et de dopamine, mais ton pouce glisse déjà vers le bouton. Hors-scène, on ne loot jamais rien.
+<img src="images/story/Start.png" alt="Start">
+[[Entrer dans l’arène->Acte1Hub]]
+[[Validation debug->Debug-Validation]]
 
-/* Passages système: fond neutre */
-body[data-passage="Debug-Validation"],
-body[data-passage="StoryInit"] {
-  background-image: none;
-  background-color: #a21f1fff;
-}
 
-:: Story JavaScript
+
+
+
+
+
+
+:: StoryScript [script]
+/* === BACKGROUND FULLSCREEN (SugarCube 2 / Twine Desktop) === */
 (function () {
-  // Inject small CSS overrides for layering the background image beneath the text + overlay.
-  var css = [
-    '#bg-image{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;pointer-events:none}',
-    'body::before{z-index:1 !important;}',
-    '#passage{z-index:2 !important;}'
-  ].join('\n');
-  var style = document.createElement('style');
-  style.id = 'bg-style';
-  style.textContent = css;
-  document.head.appendChild(style);
-
-  function setBg(passageName) {
-    var src = 'images/story/' + passageName + '.png';
-    var img = document.getElementById('bg-image');
-    if (!img) {
-      img = document.createElement('img');
+  function ensureBgRoot () {
+    var root = document.getElementById('bg-root');
+    if (!root) {
+      root = document.createElement('div');
+      root.id = 'bg-root';
+      var img = document.createElement('img');
       img.id = 'bg-image';
-      img.alt = passageName;
-      document.body.prepend(img);
+      img.alt = '';
+      var overlay = document.createElement('div');
+      overlay.id = 'bg-overlay';
+      root.appendChild(img);
+      root.appendChild(overlay);
+      document.body.prepend(root);
     }
-    img.style.display = 'none';
-    img.onerror = function () { this.style.display = 'none'; };
-    img.onload = function () { this.style.display = 'block'; };
+    return document.getElementById('bg-image');
+  }
+
+  function setBg (passageName) {
+    var img = ensureBgRoot();
+    var src = 'images/story/' + passageName + '.png';
+
+    // Fade simple pour éviter le clignotement entre scènes.
+    img.style.opacity = '0';
+    img.onload = function () { this.style.opacity = '1'; };
+    img.onerror = function () { this.removeAttribute('src'); this.style.opacity = '0'; };
+
+    // Définir la source en dernier.
     img.src = src;
   }
 
-  // Update background on each passage start.
+  // Met à jour l'image à chaque changement de passage.
   $(document).on(':passagestart', function (ev) {
     setBg(ev.passage.title);
   });
+
+  // Mise en place initiale si besoin (ex. rechargement direct sur un passage).
+  $(document).one(':passageinit', function (ev) {
+    setBg(ev.passage.title);
+  });
 })();
+
+
+:: StoryStylesheet 1 [stylesheet]
+/* === BACKGROUND FULLSCREEN (SugarCube 2 / Twine Desktop) === */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #0b0b0b; /* fallback si aucune image */
+}
+
+/* Racine du fond, fixe et non interactive */
+#bg-root {
+  position: fixed;
+  inset: 0;            /* top:0; right:0; bottom:0; left:0; */
+  z-index: 0;          /* sous le contenu */
+  pointer-events: none;
+}
+
+/* L'image couvre TOUJOURS tout l'écran (même si ratio ≠ viewport) */
+#bg-image {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;       /* clé : couvre toute la fenêtre */
+  object-position: center; /* centre l'image */
+  transition: opacity .25s ease;
+  opacity: 0;              /* évite le flash avant onload */
+}
+
+/* Overlay sombre par-dessus l'image (pour la lisibilité du texte) */
+#bg-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(0,0,0,.60),
+    rgba(0,0,0,.35) 35%,
+    rgba(0,0,0,.70)
+  );
+}
+
+/* S'assurer que le contenu passe AU-DESSUS du fond */
+#story,
+#passages,
+#passage,
+#ui-bar {
+  position: relative;
+  z-index: 2;
+}
+
+/* Mise en page du passage (à adapter à ton thème) */
+#passage {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 1.2rem;
+  color: #f5f5f5;
+}
