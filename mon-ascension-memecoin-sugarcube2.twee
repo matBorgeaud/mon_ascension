@@ -188,5 +188,39 @@ body[data-passage="Fin-Chute"] { background-image: url("images/story/Fin-Chute.p
 body[data-passage="Debug-Validation"],
 body[data-passage="StoryInit"] {
   background-image: none;
-  background-color: #111;
+  background-color: #a21f1fff;
 }
+
+:: Story JavaScript
+(function () {
+  // Inject small CSS overrides for layering the background image beneath the text + overlay.
+  var css = [
+    '#bg-image{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;pointer-events:none}',
+    'body::before{z-index:1 !important;}',
+    '#passage{z-index:2 !important;}'
+  ].join('\n');
+  var style = document.createElement('style');
+  style.id = 'bg-style';
+  style.textContent = css;
+  document.head.appendChild(style);
+
+  function setBg(passageName) {
+    var src = 'images/story/' + passageName + '.png';
+    var img = document.getElementById('bg-image');
+    if (!img) {
+      img = document.createElement('img');
+      img.id = 'bg-image';
+      img.alt = passageName;
+      document.body.prepend(img);
+    }
+    img.style.display = 'none';
+    img.onerror = function () { this.style.display = 'none'; };
+    img.onload = function () { this.style.display = 'block'; };
+    img.src = src;
+  }
+
+  // Update background on each passage start.
+  $(document).on(':passagestart', function (ev) {
+    setBg(ev.passage.title);
+  });
+})();
