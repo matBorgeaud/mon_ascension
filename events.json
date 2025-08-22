@@ -1,194 +1,106 @@
 [
   {
-    "id": "intro_1",
-    "prompt": "On a gray morning, you discover the concept of memecoin, feeling both hope for a meteoric rise and the certainty of disaster. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Start",
+    "prompt": "At dawn, a monitor shows pump.fun open: bonding curve rising, Connect Wallet glowing, a fresh ticker ready to mint a memecoin on SOL. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "intro_2",
-    "prompt": "You hesitate between being a misunderstood genius or a future ruin; the forums are full of promises and sarcasm. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte1Hub",
+    "prompt": "You pick a ticker, set supply and zero tax, promising LP burn after launch; the cursor hovers over Mint like a loaded trigger on pump.fun. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "intro_3",
-    "prompt": "You send your first tweet, feeling doubt as the world seems indifferent, but you persist. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte1Choix1A",
+    "prompt": "Forum tabs spill degen alpha and sarcasm: threads scream 100x, warnings whisper no liquidity, whales lurk behind anime avatars and burner wallets. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "lancement_1",
-    "prompt": "The whitepaper is ready, filled with jokes and dreams, awaiting daring investors. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte1Choix1B",
+    "prompt": "On your anon Twitter, you craft an ironic first tweet: #pumpfun #newcoin, bait for cynics and believers, while the mint button waits. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "lancement_2",
-    "prompt": "The first followers arrive, drawn by absurdity or greed. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte1Rejoin1",
+    "prompt": "Whitepaper-as-joke ships; Discord opens; on pump.fun the curve bites as early wallets throw SOL; you promise LP burn and no presale to keep them hungry. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "lancement_3",
-    "prompt": "An anonymous investor sends a few tokens, leaving you to wonder if it's the beginning or the end. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte1Choix2A",
+    "prompt": "A shadowy angel DM offers seed SOL to speed the mint; you accept, post a rocket, and repeat the mantra: fair launch, no presale, LP burn soon. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "lancement_4",
-    "prompt": "The Discord server comes alive with memes and veiled threats. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte1Choix2B",
+    "prompt": "You refuse the DM money publicly, flexing purity while likes pile up; apes still queue at the mint and the curve doesn’t care about morals. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "lancement_5",
-    "prompt": "You launch an airdrop, but a smart contract bug gives everything to a bot, causing chaos. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte1Rejoin2",
+    "prompt": "Pings explode: wen DEX, slippage?, is LP locked? You pin no rug, LP burn at target, while SOL inflows keep nudging the bonding curve higher. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "ascension_1",
-    "prompt": "The price soars for no reason, euphoria hiding the project's emptiness. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte2Hub",
+    "prompt": "Media sniff the hashtag and influencers circle; your pseudo turns into a mascot of greed wrapped in irony, the chart as your only alibi. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "ascension_2",
-    "prompt": "The media gets involved, searching for the next scandal. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte2Choix1A",
+    "prompt": "You give a crisp interview: tokenomics-lite, utility jokes, community-first slogans; eyes dart to the chart like a tell you can’t hide. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "ascension_3",
-    "prompt": "Influencers take over the hashtag, and the hype becomes uncontrollable. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte2Choix1B",
+    "prompt": "You go radio silent; engagement climbs anyway as others narrate your myth with cropped screenshots and breathless threads about 100x destiny. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "ascension_4",
-    "prompt": "Promises of Lambos fly, but tension rises among the community. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte2Rejoin1",
+    "prompt": "The hashtag runs by itself; shills, bots, and a couple whales push volume; the curve steepens and fear disguises itself as faith. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "ascension_5",
-    "prompt": "You receive shady exchange offers, and greed clouds your judgment. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte2Choix2A",
+    "prompt": "You collab with a mid-tier KOL: cross-posts, referral links, choreographed organic hype; volume pops like a lighter in dry air. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "ascension_6",
-    "prompt": "A faulty trading bot causes a volume spike, then everything collapses. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte2Choix2B",
+    "prompt": "You reject the collab with a smirk; the crowd projects rebel genius while the train keeps speeding toward thinner exit liquidity. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "degen_1",
-    "prompt": "You organize a rug pull, but no one notices the disappearance of the funds. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte2Rejoin2",
+    "prompt": "Chat spams Lambo soon; buy walls stack while sellers vanish; you feel the weight of expectations settle like smoke on green candles. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "degen_2",
-    "prompt": "A fake partnership with a celebrity goes viral until legal threats appear. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte3Hub",
+    "prompt": "Paper-rich and hollow, you watch candles sprint as the trading bot ramps volume then flutters near a cliff; applause covers the rattle. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "degen_3",
-    "prompt": "You create a DAO, but the community overthrows you within 24 hours. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte3Choix1A",
+    "prompt": "You kill the bot and post calm words; volume cools and believers chant strong hands, as if mantras could weld a cracking hull. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "degen_4",
-    "prompt": "A meme war erupts as your rival launches a parody token, splitting the community. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte3Choix1B",
+    "prompt": "You let the bot run and pray; wicks turn violent, refresh becomes a ritual, and luck a strategy you pretend to understand. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "degen_5",
-    "prompt": "A massive purchase of follower bots leads to your Twitter suspension for spam. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte3Rejoin1",
+    "prompt": "One ambiguous tweet detonates panic; holders stampede to the DEX, slippage spikes, the chart bleeds red and Discord froths. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "degen_6",
-    "prompt": "A buggy NFT airdrop results in all NFTs being identical and ugly. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte3Bifurcation",
+    "prompt": "Three exits glare: rebrand and relaunch, walk away quietly, or fight and lawyer up; each path burns a different mask. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "degen_7",
-    "prompt": "A jealous influencer doxxes your identity, causing panic. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte3FinaleA1",
+    "prompt": "You spin a fresh meme, new art same code; promise smarter tokenomics, cleaner LP story, and a gentler bonding curve. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "degen_8",
-    "prompt": "You attempt a pump & dump on a shady exchange, but end up being the only buyer. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Fin-Renaissance",
+    "prompt": "Against odds, the reroll catches; nostalgia and greed recycle your legend, the chart flickers green and the crowd forgives. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "sommet_1",
-    "prompt": "The memecoin reaches an absurd peak, making you rich on paper. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte3FinaleB1",
+    "prompt": "You close tabs, wipe socials, and let the coin drift; no statements, no spaces, just absence where hype used to hum. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "sommet_2",
-    "prompt": "The media seeks you out, and the irony of the situation is barely lost on you. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Fin-Oubli",
+    "prompt": "The project fades into background noise; life resumes, though price pings still itch your thumb like a phantom signal. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "sommet_3",
-    "prompt": "A sense of emptiness sets in; what to do after the absurdity of success? 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Acte3FinaleC1",
+    "prompt": "You accuse rivals, post receipts, summon counsel; regulators and parodies reply in chorus and the room chills. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   },
   {
-    "id": "sommet_4",
-    "prompt": "You are invited to a crypto show, only to be ridiculed live on air. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "chute_1",
-    "prompt": "A single unfortunate tweet causes panic and everything unravels. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "chute_2",
-    "prompt": "Investors flee and memes turn sour as the project collapses. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "chute_3",
-    "prompt": "Regulators take an interest in your project, and humor is no longer enough. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "chute_4",
-    "prompt": "The servers crash and the community tears itself apart. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "chute_5",
-    "prompt": "You contemplate the disaster, torn between shame and relief. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "chute_6",
-    "prompt": "You are banned from all exchanges, even the most obscure ones. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "desillusion_1",
-    "prompt": "Memories of glory are already distant; the digital silence is heavy. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "desillusion_2",
-    "prompt": "You try to justify the failure, but no one is listening. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "desillusion_3",
-    "prompt": "A final message is lost in the stream; the cycle is complete. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "desillusion_4",
-    "prompt": "A Reddit thread immortalizes you as a posthumous meme. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "fin_renaissance",
-    "prompt": "Against all odds, a new meme rekindles interest; the absurdity never ends. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "fin_oubli",
-    "prompt": "The project fades into oblivion and you return to a normal life, or almost. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "ambiance_1",
-    "prompt": "A bot floods the chat with philosophical spam. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "ambiance_2",
-    "prompt": "An investor sends you a goat GIF with no explanation. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "ambiance_3",
-    "prompt": "A bug displays your balance as zero, causing cold sweats. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "ambiance_4",
-    "prompt": "A rival launches a parody memecoin, igniting a meme war. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "ambiance_5",
-    "prompt": "A journalist compares you to a prophet... or a scammer. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "ambiance_6",
-    "prompt": "A miracle script empties your wallet in a single transaction. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "ambiance_7",
-    "prompt": "A NSFW meme contest descends into chaos. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "ambiance_8",
-    "prompt": "An anonymous whale sends you a cryptic message. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "ambiance_9",
-    "prompt": "You are blacklisted from all Telegram groups. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
-  },
-  {
-    "id": "ambiance_10",
-    "prompt": "A fake leak of your whitepaper circulates, more credible than the original. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
+    "id": "Fin-Chute",
+    "prompt": "Public disassembly follows: delists, threads, and polite emails; the coin dissolves in open air while everyone pretends it was inevitable. 1920s financial noir atmosphere, smoky backroom of an illegal casino, mafia undertones, piles of cash, poker chips, glowing crypto coin symbols (Bitcoin, Ethereum, Doge) on neon signs and playing cards, vintage suits and fedoras with subtle futuristic touches, chiaroscuro lighting, sepia and golden tones, with a subtle accent of deep neon contrasts, moody cinematic style"
   }
 ]
