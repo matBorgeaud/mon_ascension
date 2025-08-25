@@ -1,0 +1,1077 @@
+:: StoryTitle
+Mon Ascension
+
+
+:: StoryData
+{
+  "ifid": "45d4fecf-125f-496a-a619-2302c1dd9ae8",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "TitleScreen",
+  "tag-colors": {
+    "nobox": "none"
+  },
+  "zoom": 1
+}
+
+
+:: Acte1Choix1A [bg-Acte1Choix1A] {"position":"575,750","size":"100,100"}
+Les forums sentent l'adrénaline et la fièvre du profit rapide. Des prophètes en JPEG promettent la lune, des trolls jouent aux pompiers pyromanes. Tu lis des manifestes bricolés à la sueur tiède, des diagrammes qui confondent l’absurde et le sacré. Chaque ligne confirme que l’intelligence colle mal aux rendements promis, mais la contagion marche très bien. Tu inspires cette vapeur toxique, juste assez pour t’engourdir le jugement sans anesthésier le désir.
+[[Continuer|Acte1Rejoin1]]
+
+
+:: Acte1Choix1B [bg-Acte1Choix1B] {"position":"750,675","size":"100,100"}
+Tu balances un tweet anonyme, moitié blague, moitié appât, assez ambigu pour séduire les cyniques et piéger les candides. Le message file comme une bouteille jetée d’un balcon: tu espères casser une vitre sans attirer le gardien. Les premiers likes tombent, l’ego se redresse; soudain, la honte ressemble à un investissement amortissable. Tu sens la machine sociale s’ébrouer, prête à avaler ton récit et recracher un symbole qui n’a jamais été toi.
+[[Continuer|Acte1Rejoin1]]
+
+
+:: Acte1Choix2A [bg-Acte1Choix2A] {"position":"775,25","size":"100,100"}
+Tu acceptes l’argent avec la classe d’un pickpocket en gants blancs. Le montant n’est pas indécent, juste assez pour déplacer la ligne morale d’un pas discret. Le chat s’illumine d’enthousiasmes intéressés et de conseils contradictoires. Tu feins la prudence, poste un emoji sûr de lui, et caches la petite brûlure au creux du ventre. On ne lave pas la main qui nourrit; on la parfume et on serre plus fort.
+[[Continuer|Acte1Rejoin2]]
+
+
+:: Acte1Choix2B [bg-Acte1Choix2B] {"position":"900,25","size":"100,100"}
+Tu refuses, très publiquement, pour la beauté du geste et la photo de profil. La pureté sent bon sur la timeline, ça donne l’illusion d’être différent du troupeau. Évidemment, la foule s’excite quand même: personne n’aime un prêche, tout le monde adore un spectacle. Tu goûtes ce frisson idiot d’avoir “tenu”, tout en te demandant combien de temps cette vertu sous vide va survivre au prochain graphique vert.
+[[Continuer|Acte1Rejoin2]]
+
+
+:: Acte1Hub [bg-Acte1Hub] {"position":"375,775","size":"100,100"}
+Curseur prêt au départ: tu hésites entre façade ironique et vraie faim de pump. Sur pump.fun, créer un ticker, choisir supply, décocher une taxe pour appâter, promettre un LP burn et prier pour un listing DEX propre: tout tient en trois clics et un joli mensonge. Tu te dis que c’est “performance artistique”, alors que tu vises surtout la courbe. Ici, le timing est roi et la nuance un bug; on récompense ceux qui pressent Mint avant de penser.
+[[Fouiller les forums|Acte1Choix1A]]
+[[Créer un compte anonyme et tweeter|Acte1Choix1B]]
+
+
+:: Acte1Rejoin1 [bg-Acte1Rejoin1] {"position":"650,25","size":"100,100"}
+Whitepaper bâclé façon blague sérieuse; Discord en vrac; et la page pump.fun qui clignote au second écran. La bonding curve a déjà mordu, les premiers wallets crachent du SOL avec la dévotion d’un casino. Tu promets LP burn et “no presale” pour la forme, sachant très bien que le storytelling vaut plus que la tokenomics. Les DM alternent emojis de fusées et menaces molles. Tu fais semblant d’orchestrer; l’algorithme, lui, bat la mesure.
+[[Accepter un “investisseur” pressé|Acte1Choix2A]]
+[[Rester pur et dire non|Acte1Choix2B]]
+
+
+:: Acte1Rejoin2 [bg-Acte1Rejoin2] {"position":"1025,25","size":"100,100"}
+Les notifications crépitent comme une friteuse: brûlantes, grasses, délicieuses et honteuses. Chaque bip confirme que tu as quitté la berge. Les mêmes phrases tournent en boucle—“early”, “next 100x”, “wen”—et tu découvres que l’espérance se décline surtout en fautes d’orthographe. Tu sais que la valeur est un mirage collectif, mais tu t’y abreuves sans ciller. Le mouvement suffit; l’histoire suivra, tordue si nécessaire.
+[[La hype enfle|Acte2Hub]]
+
+
+:: Acte2Choix1A [bg-Acte2Choix1A] {"position":"25,150","size":"100,100"}
+Tu réponds posément, avec ce ton d’expert qui marche surtout sur ceux qui veulent déjà te croire. Tu doses l’ironie pour paraître lucide, le sérieux pour paraître rassurant. Les questions sont des balles molles; tu les renvoies en souriant, ravi de ce tennis truqué. À la fin, tu n’as rien dit et pourtant la conviction a monté. Magie blanche: on appelle ça communication.
+[[Continuer|Acte2Rejoin1]]
+
+
+:: Acte2Choix1B [bg-Acte2Choix1B] {"position":"150,150","size":"100,100"}
+Tu choisis le silence, posture d’ascète dans un temple de sirènes. Ne rien dire devient ton meilleur argument: plus tu t’absentes, plus on projette sur toi des promesses prêtes-à-porter. C’est confortable, jusqu’au moment où l’image te remplace. Tu regardes la foule vénérer un reflet qui te ressemble à peine; tu te contentes d’encaisser la ferveur tant que l’illusion tient debout.
+[[Continuer|Acte2Rejoin1]]
+
+
+:: Acte2Choix2A [bg-Acte2Choix2A] {"position":"400,150","size":"100,100"}
+Tu signes une collab emballée dans des DM bourrés d’angles morts. L’autre te prête sa portée, tu lui prêtes ta légende: échange équitable entre complices pressés. Le ton devient plus gras, la promesse plus brillante, et l’on jure que tout est “communautaire” pour parfumer le mercantilisme. Le train accélère; personne ne vérifie les freins tant que la musique couvre le grincement.
+[[Continuer|Acte2Rejoin2]]
+
+
+:: Acte2Choix2B [bg-Acte2Choix2B] {"position":"525,150","size":"100,100"}
+Tu refuses la main tendue avec un rictus élégant. L’ironie redevient ton bouclier: tu préfères l’image du franc-tireur aux effusions sponsorisées. Évidemment, la foule n’écoute pas la nuance—elle n’en a ni le temps ni l’envie. Le récit avance malgré toi, comme un chariot lancé en pente: tu peux sauter, pas le ralentir.
+[[Continuer|Acte2Rejoin2]]
+
+
+:: Acte2Hub [bg-Acte2Hub] {"position":"1150,25","size":"100,100"}
+Les médias reniflent la piste comme des chiens dressés au sensationnel. Influenceurs et journalistes se disputent ton masque: visionnaire détendu ou crétin utile. Ton pseudo flotte au-dessus d’un public qui préfère l’intrigue au vrai. Tu sens ta voix comprimée dans un format vendable, prête à servir de carburant aux regards pressés. Ici, régner c’est s’user vite; régner longtemps, c’est disparaître proprement.
+[[Répondre aux médias avec aplomb|Acte2Choix1A]]
+[[Se taire et nourrir la hype|Acte2Choix1B]]
+
+
+:: Acte2Rejoin1 [bg-Acte2Rejoin1] {"position":"275,150","size":"100,100"}
+Un hashtag te glisse des mains et se met à courir tout seul, escorté par des comptes qui facturent la vertu et par des bots trop zélés. La métrique prend la parole à ta place; tu n’es plus l’auteur, juste la caution. L’emballement a ce parfum chimique qui masque la peur. Tu sais comment ça finit, mais l’inertie est une drogue qu’on avale en souriant à la caméra.
+[[Collaborer avec un influenceur|Acte2Choix2A]]
+[[Refuser et rester à distance|Acte2Choix2B]]
+
+
+:: Acte2Rejoin2 [bg-Acte2Rejoin2] {"position":"650,150","size":"100,100"}
+“Lambo soon”, répètent-ils, parce que l’impatience a besoin d’emblèmes enfantins. Tu ne ris plus autant: la blague a pris du poids, elle laisse des marques. Ton nom sert de levier à des attentes que tu ne contrôles plus. Les regards cherchent la faille et la prophétie; les deux sont faciles à fabriquer. Tu respires court, déjà en haut de la vague.
+[[Sommet absurde|Acte3Hub]]
+
+
+:: Acte3Bifurcation [bg-Acte3Bifurcation] {"position":"125,300","size":"100,100"}
+Le théâtre t’offre trois masques: le survivant opportun, le moine fatigué, le martyr teigneux. Peu importe lequel tu choisis, la scène est la même et le public s’en tirera avec la morale de son choix. Tu n’as plus qu’à livrer la posture, l’algorithme fera le reste. C’est presque reposant d’être réduit à un archétype rentable.
+[[Relancer par l’absurde|Acte3FinaleA1]]
+[[Tirer sa révérence|Acte3FinaleB1]]
+[[Tenir tête aux vagues|Acte3FinaleC1]]
+
+
+:: Acte3Choix1A [bg-Acte3Choix1A] {"position":"1225,225","size":"100,100"}
+Tu coupes la machine comme on arrête une chanson trop forte: le silence blesse presque plus. Les courbes s’aplatissent, les regards aussi. Tu goûtes une seconde de contrôle, cette chose ringarde que l’époque traite comme un vice. Tes doigts cessent de trembler, pas ton appétit. Tu sais que l’accalmie ne durera pas; personne ne paye pour de la sobriété.
+[[Continuer|Acte3Rejoin1]]
+
+
+:: Acte3Choix1B [bg-Acte3Choix1B] {"position":"1400,175","size":"100,100"}
+Tu laisses tourner, en bon croyant du hasard favorable. Les courbes chantent puis grincent; tu t’inventes des rituels pour garder l’illusion de maîtriser l’aléatoire. La communauté aime les capitaines mystiques, tant que la mer reste bleue. Tu souris sur commande, priant que la marée n’ait pas lu tes doutes.
+[[Continuer|Acte3Rejoin1]]
+
+
+:: Acte3FinaleA1 [bg-Acte3FinaleA1] {"position":"75,500","size":"100,100"}
+Tu rallumes la farce: nouveau mème, ancien ressort. L’absurde recycle mieux que le plastique, et les timelines adorent les revenants tant qu’ils ne demandent pas pardon. Tu maquilles la débâcle en renaissance, rabotes les angles, et promets moins fort pour encaisser plus longtemps. La musique repart: personne ne vérifie qui tient la clef du volume.
+[[Renaître|Fin-Renaissance]]
+
+
+:: Acte3FinaleB1 [bg-Acte3FinaleB1] {"position":"450,350","size":"100,100"}
+Tu fermes les onglets comme on éteint un bar trop bruyant: un à un, sans regarder la caisse. Le silence colle aux murs et révèle les traces grasses du spectacle. Personne n’applaudit la sobriété, mais elle a le mérite de ne pas t’exploser au visage. Tu retrouves le poids de ton propre nom, plus léger que prévu, plus lourd qu’espéré.
+[[Sombrer dans l'oubli|Fin-Oubli]]
+
+
+:: Acte3FinaleC1 [bg-Acte3FinaleC1] {"position":"675,350","size":"100,100"}
+Tu choisis la confrontation hygiénique: threads, accusations, posture de justicier tardif. Les rivaux te parodient avec talent; les messages officiels s’invitent, polis et menaçants. Tes blagues ne protègent plus rien: l’ironie n’est pas un casque, juste un miroir propre. Tu tiens le regard, parce qu’il reste encore un peu d’orgueil à brûler.
+[[Sombrer|Fin-Chute]]
+
+
+:: Acte3Hub [bg-Acte3Hub] {"position":"875,175","size":"100,100"}
+Le cours grimpe sans raison autre que la volonté collective de ne pas regarder en bas. Riche sur le papier, vide dans la poitrine: la vieille antithèse sonne juste et inutile. Un bot s’emballe, fabrique des bougies qui montent comme des hymnes. Tu fais semblant de piloter, mais la cabine est décorative. On t’applaudit tant que tu souris au bon moment.
+[[Couper le bot|Acte3Choix1A]]
+[[Laisser faire et prier|Acte3Choix1B]]
+
+
+:: Acte3Rejoin1 [bg-Acte3Rejoin1] {"position":"1325,375","size":"100,100"}
+Un tweet ambigu—dix mots paresseux, mille interprétations armées. La foule s’échauffe, les rumeurs bricolent des bombes à retardement, et tu regardes l’incendie avec cette lucidité inutile qui arrive toujours trop tard. L’adrénaline a un goût métallique; l’histoire veut une chute et, pour une fois, tu es parfaitement disponible.
+[[Vendre, recycler le mème, se refaire|Acte3Bifurcation]]
+[[Se retirer en silence|Acte3Bifurcation]]
+[[Accuser et affronter|Acte3Bifurcation]]
+
+
+:: Fin-Chute [bg-Fin-Chute] {"position":"1100,350","size":"100,100"}
+Tout s’est effondré sans bruit. Les notifications cessent, les serveurs ne répondent plus, les rumeurs t’ont déjà englouti. Il n’y a même pas de scandale grandiose, juste une disparition molle, comme une pierre jetée dans une eau trop sombre.  
+
+Tu attends un dernier message, un signe, une insulte, mais rien. Le silence devient épais, presque solide, et tu comprends que c’est la seule trace qui reste : le vide. Tes anciens alliés se taisent, tes ennemis n’ont plus besoin de toi. Même tes propres mots, relus en cachette, te semblent étrangers, ridicules.  
+
+L’abîme ne t’avale pas d’un coup. Il s’installe en toi, s’étire, grignote chaque pensée jusqu’à ce que le temps lui-même se décompose. Il n’y a plus de haut, plus de bas, juste une gravité inversée qui aspire tout ce que tu étais.  
+
+La chute est interminable, et c’est ça, la punition : tu n’atteins jamais le sol.  
+
+
+
+
+:: Fin-Oubli [bg-Fin-Oubli] {"position":"525,500","size":"100,100"}
+Le flux t’oublie avec une indifférence professionnelle. Tu réapprends des gestes sans métrique: marcher, cuisiner, lire sans rafraîchir. Parfois la jalousie te pique, douce et ridicule, devant le nouveau prophète jetable. Tu souris en coin: tu sais ce que coûte le feu d’artifice et combien il éclaire mal. Revenir n’est jamais impossible; c’est juste rarement souhaitable.
+[[Fin|TitleScreen]]
+
+
+
+:: Fin-Renaissance [bg-Fin-Renaissance] {"position":"325,475","size":"100,100"}
+Contre toute attente, ton nom recircule comme une vieille chanson devenue mode. Rien ne meurt vraiment ici: ça se recompose, s’édite, se vend. Tu sens la tentation revenir, fine et dangereuse, cette petite morsure qui promet d’être sage puis réclame tout. Tu te promets d’apprendre de la farce; tu sais déjà que tu mentiras. La boucle a bon goût quand on a la mémoire courte.
+[[Boucler et recommencer|Start]]
+
+
+
+:: Lexique {"position":"1025,650","size":"100,100"}
+\:: Lexique
+
+* **pump.fun** — Plateforme (Solana) qui permet de créer des memecoins facilement.
+* **Ticker** — Abréviation/nom court d’un token (ex. symbole en bourse).
+* **Supply** — Quantité totale de tokens émise.
+* **Taxe / tax 0/0** — Paramètre de frais sur les transactions, ici mis à 0% achat/vente.
+* **LP (Liquidity Pool)** — Réserve de liquidité déposée sur un DEX pour permettre l’échange du token.
+* **LP burn** — Destruction des jetons LP (souvent en les envoyant à une adresse brûlée) pour « verrouiller » la liquidité.
+* **Listing DEX** — Mise à disposition du token sur un échange décentralisé.
+* **DEX (Decentralized Exchange)** — Bourse d’échange sans intermédiaire central (ex. Orca, Raydium sur Solana).
+* **Mint / to mint** — Créer/émettre de nouveaux tokens ou, selon le contexte, initier l’offre d’un nouveau token.
+* **Wallet** — Portefeuille crypto permettant d'en détenir et de signer des transactions.
+* **SOL** — Crypto-monnaie native de la blockchain Solana.
+* **Bonding curve** — Courbe définissant le prix d’un token en fonction de la quantité achetée/émise.
+* **Tokenomics** — Conception économique du token (offre, distribution, utilité, incitations).
+* **Presale** — Vente préalable de tokens avant le lancement public.
+* **Slippage** — Glissement de prix toléré entre la soumission et l’exécution d’un ordre.
+* **Rug pull / no rug** — Exit fraud où la liquidité est retirée; « no rug » signifie promesse de ne pas tricher.
+* **100x** — Multiplication théorique par cent de la valeur (slogan spéculatif).
+* **Listing** — Action d’inscrire un token sur une plateforme d’échange (centralisée ou décentralisée).
+* **Burn** — Destruction permanente de tokens en les rendant inaccessibles.
+* **Whitepaper** — Document décrivant la vision, la technique et l’économie d’un projet.
+* **Mème / memecoin** — Blague culturelle virale; un memecoin est un token fondé sur cet imaginaire.
+* **Lambo soon** — Mème signifiant l’attente d’un gain rapide et massif.
+
+[[Retour->Start]]
+
+<script>
+$(document).one(":passagedisplay", function (ev) {
+  // Gérer retour
+  $("#lexique-retour").on("click", function () {
+    Engine.play("Previous()");
+  });
+});
+</script>
+
+
+:: Start [bg-Start] {"position":"125,675","size":"100,100"}
+Le matin gris se reflète sur l’écran froid et, dessus, tout parle memecoin: shitcoins à ticker débile, bonding curve qui grimpe, promesses de 100x en 24h. Sur pump.fun, des pages de mint alignent les graphiques comme des pièges à mouche; on y connecte son wallet, on jette du SOL, et on jure de brûler la LP après le launch. Les threads répètent DEX, slippage, tax 0/0, “no rug” en caps. Tu sais que c’est un carnaval de liquidité et de dopamine, mais ton pouce glisse déjà vers le bouton. Hors-scène, on ne loot jamais rien.
+[[Entrer dans l’arène|Acte1Hub]]
+
+
+
+:: StoryInit {"position":"975,825","size":"100,100"}
+\:: StoryInit [script]
+$(document).one(":storyready", function () {
+    if ($("#lexique-btn").length === 0) {
+        $("body").append('<button id="lexique-btn">Lexique</button>');
+    }
+});
+
+$(document).on("click", "#lexique-btn", function () {
+    Engine.play("Lexique");
+});
+
+
+
+:: TitleScreen {"position":"975,450","size":"100,100"}
+<div id="title-overlay" aria-label="Cliquer pour commencer"></div>
+
+
+:: StoryScript [script]
+/* ==== 1) Image de fond par passage (appliquée sur #story) ==== */
+$(document).on(':passagedisplay', function () {
+    const map = {
+        "TitleScreen": "images/titre.png",
+        "Acte1Choix1A": "images/story/Acte1Choix1A.png",
+        "Acte1Choix1B": "images/story/Acte1Choix1B.png",
+        "Acte1Choix2A": "images/story/Acte1Choix2A.png",
+        "Acte1Choix2B": "images/story/Acte1Choix2B.png",
+        "Acte1Hub": "images/story/Acte1Hub.png",
+        "Acte1Rejoin1": "images/story/Acte1Rejoin1.png",
+        "Acte1Rejoin2": "images/story/Acte1Rejoin2.png",
+        "Acte2Choix1A": "images/story/Acte2Choix1A.png",
+        "Acte2Choix1B": "images/story/Acte2Choix1B.png",
+        "Acte2Choix2A": "images/story/Acte2Choix2A.png",
+        "Acte2Choix2B": "images/story/Acte2Choix2B.png",
+        "Acte2Hub": "images/story/Acte2Hub.png",
+        "Acte2Rejoin1": "images/story/Acte2Rejoin1.png",
+        "Acte2Rejoin2": "images/story/Acte2Rejoin2.png",
+        "Acte3Bifurcation": "images/story/Acte3Bifurcation.png",
+        "Acte3Choix1A": "images/story/Acte3Choix1A.png",
+        "Acte3Choix1B": "images/story/Acte3Choix1B.png",
+        "Acte3FinaleA1": "images/story/Acte3FinaleA1.png",
+        "Acte3FinaleB1": "images/story/Acte3FinaleB1.png",
+        "Acte3FinaleC1": "images/story/Acte3FinaleC1.png",
+        "Acte3Hub": "images/story/Acte3Hub.png",
+        "Acte3Rejoin1": "images/story/Acte3Rejoin1.png",
+        "Fin-Chute": "images/story/Fin-Chute.png",
+        "Fin-Oubli": "images/story/Fin-Oubli.png",
+        "Fin-Renaissance": "images/story/Fin-Renaissance.png",
+        "Start": "images/story/Start.png"
+    };
+
+    const src = map[(window.SugarCube && SugarCube.State ? SugarCube.State.passage : State.passage)] || "images/story/Start.png";
+
+    $('#story').css({
+        'background-image': 'url(' + src + ')',
+        'background-size': 'cover',
+        'background-position': 'center center',
+        'background-repeat': 'no-repeat'
+    });
+});
+
+
+/* ==== 2) Page de titre: clic n’importe où -> Start, sauf UI/Lexique ==== */
+(function () {
+    // Sélecteurs à considérer comme "zone UI" (ne doivent pas déclencher Start)
+    const UI_BLOCK = [
+        '#ui-bar',
+        '#ui-bar-toggle',
+        '#hamburger-btn',
+        '#hamburger-menu',
+        '#ui-dialog',
+        '#ui-overlay',
+        '#lexique-btn',
+        '#lexique-overlay',
+        '#lexique-box',
+        '.tw-save',
+        '.tw-settings' // etc. ajoute ce qu'il faut ici
+    ].join(',');
+
+    // Handler global namespacé
+    function titleClickHandler(ev) {
+        if ((window.SugarCube && SugarCube.State ? SugarCube.State.passage : State.passage) !== 'TitleScreen') return;
+        if ($('body').hasClass('lexique-open')) return;
+        if ($(ev.target).closest(UI_BLOCK).length) return;
+
+        if (window.SugarCube && SugarCube.Engine && typeof SugarCube.Engine.play === 'function') {
+            SugarCube.Engine.play('Start');
+        }
+    }
+
+    // Sur chaque affichage de passage on active / désactive le listener
+    $(document).on(':passagedisplay.titleOverlay', function () {
+        if ((window.SugarCube && SugarCube.State ? SugarCube.State.passage : State.passage) === 'TitleScreen') {
+            if (!$('#title-overlay').length) {
+                $('<div id="title-overlay"></div>').appendTo('body').css({
+                    position: 'fixed',
+                    inset: '0',
+                    cursor: 'pointer',
+                    background: 'transparent',
+                    'z-index': 2000
+                });
+            } else {
+                $('#title-overlay').show();
+            }
+
+            $(document).off('click.titleStart');
+            $(document).on('click.titleStart', titleClickHandler);
+            console.log('TitleScreen : handler activé');
+
+        } else {
+            $('#title-overlay').remove();
+            $(document).off('click.titleStart');
+        }
+    });
+})();
+
+
+/* ==== 3) Bouton + overlay Lexique (si tu les utilises globalement) ==== */
+$(document).one(':storyready', function () {
+    if (!$('#lexique-btn').length) {
+        $('body').append('<button id="lexique-btn">Lexique</button>');
+    }
+
+    if (!$('#lexique-overlay').length) {
+        $('body').append([
+            '<div id="lexique-overlay" style="display:none;">',
+                '<div id="lexique-box">',
+                    '<button id="lexique-close">✕</button>',
+                    '<h2>Lexique</h2>',
+                        '<div class="lexique-list">',
+                            '<p><b>pump.fun</b> : Plateforme (Solana) qui permet de créer des memecoins facilement.</p>',
+                            '<p><b>Ticker</b> : Abréviation/nom court d’un token (ex. symbole en bourse).</p>',
+                            '<p><b>Supply</b> : Quantité totale de tokens émise.</p>',
+                            '<p><b>Taxe / tax 0/0</b> : Paramètre de frais sur les transactions, ici mis à 0% achat/vente.</p>',
+                            '<p><b>LP (Liquidity Pool)</b> : Réserve de liquidité déposée sur un DEX pour permettre l’échange du token.</p>',
+                            '<p><b>LP burn</b> : Destruction des jetons LP (souvent en les envoyant à une adresse brûlée) pour « verrouiller » la liquidité.</p>',
+                            '<p><b>Listing DEX</b> : Mise à disposition du token sur un échange décentralisé.</p>',
+                            '<p><b>DEX (Decentralized Exchange)</b> : Bourse d’échange sans intermédiaire central (ex. Orca, Raydium sur Solana).</p>',
+                            '<p><b>Mint / to mint</b> : Créer/émettre de nouveaux tokens ou initier l’offre d’un nouveau token.</p>',
+                            '<p><b>Wallet</b> : Portefeuille crypto permettant sa détention et de signer des transactions associées.</p>',
+                            '<p><b>SOL</b> : Crypto-monnaie native de la blockchain Solana.</p>',
+                            '<p><b>Bonding curve</b> : Courbe définissant le prix d’un token en fonction de la quantité achetée/émise.</p>',
+                            '<p><b>Tokenomics</b> : Conception économique du token (offre, distribution, utilité, incitations).</p>',
+                            '<p><b>Presale</b> : Vente préalable de tokens avant le lancement public.</p>',
+                            '<p><b>Slippage</b> : Glissement de prix toléré entre soumission et exécution d’un ordre.</p>',
+                            '<p><b>Rug pull / no rug</b> : Exit fraud où la liquidité est retirée ; « no rug » = promesse de ne pas tricher.</p>',
+                            '<p><b>100x</b> : Multiplication théorique par cent de la valeur (slogan spéculatif).</p>',
+                            '<p><b>Listing</b> : Action d’inscrire un token sur une plateforme d’échange (centralisée ou décentralisée).</p>',
+                            '<p><b>Burn</b> : Destruction permanente de tokens en les rendant inaccessibles.</p>',
+                            '<p><b>Whitepaper</b> : Document décrivant la vision, la technique et l’économie d’un projet.</p>',
+                            '<p><b>Mème / memecoin</b> : Blague culturelle virale ; un memecoin est un token fondé sur cet imaginaire.</p>',
+                            '<p><b>Lambo soon</b> : Mème signifiant l’attente d’un gain rapide et massif.</p>',
+                        '</div>',
+                '</div>',
+            '</div>'
+        ].join(''));
+    }
+});
+
+// Ouvrir lexique
+$(document).on('click', '#lexique-btn', function () {
+    $('body').addClass('lexique-open');
+    $('#lexique-overlay').show();
+});
+
+// Fermer lexique (croix)
+$(document).on('click', '#lexique-close', function () {
+    $('#lexique-overlay').hide();
+    $('body').removeClass('lexique-open');
+});
+
+// Fermer lexique (Esc)
+$(document).on('keydown', function (e) {
+    if (e.key === 'Escape' && $('body').hasClass('lexique-open')) {
+        $('#lexique-overlay').hide();
+        $('body').removeClass('lexique-open');
+    }
+});
+
+/* ==== 4) Menu Hamburger remplaçant la UI bar (Last, Next, Saves/Loads, Restart) ==== */
+$(document).one(':storyready', function () {
+    // Injection des éléments hamburger
+    if (!$('#hamburger-btn').length) {
+        $('body').append(
+            '<button id="hamburger-btn" aria-controls="hamburger-menu" aria-haspopup="true" aria-expanded="false" aria-label="Menu">☰</button>'
+        );
+    }
+    if (!$('#hamburger-menu').length) {
+        $('body').append([
+            '<nav id="hamburger-menu" role="menu" aria-hidden="true">',
+                '<div class="hm-scroll" role="none">',
+                    '<button class="hm-item" data-action="back" role="menuitem">⟵ Dernier</button>',
+                    '<button class="hm-item" data-action="forward" role="menuitem">Suivant ⟶</button>',
+                    '<button class="hm-item" data-action="saves" role="menuitem">💾 Sauvegardes / Chargements</button>',
+                    '<button class="hm-item" data-action="restart" role="menuitem">⟳ Redémarrer</button>',
+                    '<a class="hm-item hm-link" role="menuitem" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub (ouvre dans un nouvel onglet)">',
+                        '<span class="hm-icon" aria-hidden="true" style="display:inline-flex; vertical-align:middle; margin-right:8px;">',
+                            '<svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true">',
+                                '<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>',
+                            '</svg>',
+                        '</span>',
+                        'GitHub',
+                    '</a>',
+                '</div>',
+            '</nav>'
+        ].join(''));
+    }
+
+    // Log de détection du format et des APIs disponibles (incluant le namespace SugarCube)
+    try {
+        var fmt = (window.SugarCube ? ('SugarCube ' + (SugarCube.version || 'unknown'))
+            : (window.storyFormat ? (storyFormat.name + ' ' + storyFormat.version) : 'unknown'));
+        var hasMacroSavesWin = !!(window.Macro && ((Macro.has && Macro.has('saves')) || (Macro.get && Macro.get('saves'))));
+        var hasMacroSavesSC  = !!(window.SugarCube && SugarCube.Macro && ((SugarCube.Macro.has && SugarCube.Macro.has('saves')) || (SugarCube.Macro.get && SugarCube.Macro.get('saves'))));
+        console.info('[Hamburger] Format détecté:', fmt,
+            '| window.Engine:', typeof window.Engine,
+            '| window.Dialog:', typeof window.Dialog,
+            '| window.Wikifier:', typeof window.Wikifier,
+            '| window.UI.saves:', (window.UI && typeof UI.saves === 'function') ? 'function' : typeof window.UI,
+            '| SugarCube.Engine:', (window.SugarCube ? typeof SugarCube.Engine : 'n/a'),
+            '| SugarCube.UI:', (window.SugarCube ? typeof SugarCube.UI : 'n/a'),
+            '| SugarCube.UI.saves:', (window.SugarCube && SugarCube.UI ? typeof SugarCube.UI.saves : 'n/a'),
+            '| SugarCube.Dialog:', (window.SugarCube ? typeof SugarCube.Dialog : 'n/a'),
+            '| SugarCube.State:', (window.SugarCube ? typeof SugarCube.State : 'n/a'),
+            '| SugarCube.Wikifier:', (window.SugarCube ? typeof SugarCube.Wikifier : 'n/a'),
+            '| Macro.has(saves) [window]:', hasMacroSavesWin,
+            '| Macro.has(saves) [SugarCube]:', hasMacroSavesSC
+        );
+    } catch (_ex) {}
+});
+
+// Helpers d’ouverture/fermeture
+function hmOpen() {
+    $('body').addClass('menu-open');
+    $('#hamburger-menu').attr('aria-hidden', 'false');
+    $('#hamburger-btn').attr('aria-expanded', 'true');
+    // Prépare le roving tabindex et focus sur le premier item
+    setTimeout(function () {
+        const $items = $('#hamburger-menu .hm-item');
+        $items.attr('tabindex', '-1');
+        const $first = $items.first();
+        $first.attr('tabindex', '0').trigger('focus');
+    }, 0);
+}
+function hmClose() {
+    $('body').removeClass('menu-open');
+    $('#hamburger-menu').attr('aria-hidden', 'true');
+    $('#hamburger-btn').attr('aria-expanded', 'false');
+    // Rendre le focus au bouton pour l’accessibilité
+    $('#hamburger-btn').trigger('focus');
+}
+
+// Toggle via bouton
+$(document).on('click', '#hamburger-btn', function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    if ($('body').hasClass('menu-open')) {
+        hmClose();
+    } else {
+        hmOpen();
+    }
+});
+
+// Fermer au clic hors du menu
+$(document).on('click', function (ev) {
+    if (!$('body').hasClass('menu-open')) return;
+    const $t = $(ev.target);
+    if ($t.closest('#hamburger-btn, #hamburger-menu, #ui-dialog, #ui-overlay').length) return;
+    hmClose();
+});
+
+// Fermer avec Échap quand menu ouvert
+$(document).on('keydown', function (e) {
+    if (e.key === 'Escape' && $('body').hasClass('menu-open')) {
+        hmClose();
+    }
+});
+
+// Actions du menu
+$(document).on('click', '#hamburger-menu .hm-item', function (ev) {
+   const $el = $(this);
+   const action = $el.data('action');
+
+   // Lien externe (ex. GitHub): ne pas bloquer la navigation, mais fermer le menu
+   if (!action && $el.is('a[href]')) {
+       hmClose();
+       // Pour fiabilité cross‑browser, ouvrir explicitement si target défini
+       const href = $el.attr('href');
+       const target = $el.attr('target') || '_self';
+       if (href) {
+           ev.preventDefault();
+           try { window.open(href, target, target === '_blank' ? 'noopener,noreferrer' : undefined); } catch (_e) {}
+       }
+       return;
+   }
+
+   // Actions internes: empêcher la navigation par défaut
+   ev.preventDefault();
+
+   switch (action) {
+       case 'back':
+           hmClose();
+           if (window.SugarCube && SugarCube.Engine && typeof SugarCube.Engine.backward === 'function') {
+               SugarCube.Engine.backward();
+           }
+           break;
+
+       case 'forward':
+           hmClose();
+           if (window.SugarCube && SugarCube.Engine && typeof SugarCube.Engine.forward === 'function') {
+               SugarCube.Engine.forward();
+           }
+           break;
+
+       case 'saves':
+           hmClose();
+           // SugarCube: utiliser l’API officielle via le namespace SugarCube
+           if (window.SugarCube && SugarCube.UI && typeof SugarCube.UI.saves === 'function') {
+               try {
+                   SugarCube.UI.saves();
+                   return;
+               } catch (e) {
+                   console.error('[Hamburger] SugarCube.UI.saves() a échoué, tentative via Dialog:', e);
+               }
+           }
+           // Secondaire: ouvrir un Dialog et tenter la macro si présente, sinon message
+           if (window.SugarCube && SugarCube.Dialog) {
+               try {
+                   SugarCube.Dialog.setup('Sauvegardes / Chargements');
+                   if (SugarCube.Macro && ((SugarCube.Macro.has && SugarCube.Macro.has('saves')) || (SugarCube.Macro.get && SugarCube.Macro.get('saves')))) {
+                       if (typeof SugarCube.Dialog.wiki === 'function') {
+                           SugarCube.Dialog.wiki('<<saves>>');
+                       } else if (typeof SugarCube.Wikifier !== 'undefined') {
+                           new SugarCube.Wikifier(SugarCube.Dialog.body(), '<<saves>>');
+                       } else {
+                           $(SugarCube.Dialog.body()).append('<p>Interface de sauvegardes non disponible.</p>');
+                       }
+                   } else {
+                       $(SugarCube.Dialog.body()).append('<p>Interface de sauvegardes non disponible (macro <<saves>> absente). Utilisez SugarCube.UI.saves() ou vérifiez votre build SugarCube.</p>');
+                   }
+                   SugarCube.Dialog.open();
+               } catch (e2) {
+                   console.error('[Hamburger] Échec ouverture Dialog saves:', e2);
+               }
+           } else {
+               // Non-SugarCube (ex. Harlowe)
+               try { window.alert('Sauvegardes non disponibles dans ce format. Confirmez le format cible (SugarCube vs Harlowe).'); } catch (_e3) {}
+           }
+           break;
+
+       case 'restart':
+           hmClose();
+           if (window.SugarCube && SugarCube.Engine && typeof SugarCube.Engine.restart === 'function') {
+               SugarCube.Engine.restart();
+           }
+           break;
+
+       default:
+           break;
+   }
+});
+
+// Navigation clavier dans le menu hamburger (roving tabindex + piège de focus)
+$(document).on('keydown', function (e) {
+   if (!$('body').hasClass('menu-open')) return;
+
+   const $active = $(document.activeElement);
+
+   // Si le focus n'est pas dans le menu, intercepter Tab pour entrer dans le menu
+   if (!$active.closest('#hamburger-menu').length) {
+       if (e.key === 'Tab') {
+           const $items = $('#hamburger-menu .hm-item');
+           if ($items.length) {
+               e.preventDefault();
+               $items.attr('tabindex', '-1');
+               $items.first().attr('tabindex', '0').trigger('focus');
+           }
+       }
+       return;
+   }
+
+   const $items = $('#hamburger-menu .hm-item');
+   const idx = $items.index($active);
+   if (idx === -1) return;
+
+   function focusAt(i) {
+       const $t = $items.eq(i);
+       $items.attr('tabindex', '-1');
+       $t.attr('tabindex', '0').trigger('focus');
+   }
+
+   switch (e.key) {
+       case 'ArrowDown':
+       case 'Down': // legacy
+           e.preventDefault();
+           focusAt((idx + 1) % $items.length);
+           break;
+       case 'ArrowUp':
+       case 'Up': // legacy
+           e.preventDefault();
+           focusAt((idx - 1 + $items.length) % $items.length);
+           break;
+       case 'Home':
+           e.preventDefault();
+           focusAt(0);
+           break;
+       case 'End':
+           e.preventDefault();
+           focusAt($items.length - 1);
+           break;
+       case 'Tab':
+           // Piège le focus dans le menu
+           if (!e.shiftKey && idx === $items.length - 1) {
+               e.preventDefault();
+               focusAt(0);
+           } else if (e.shiftKey && idx === 0) {
+               e.preventDefault();
+               focusAt($items.length - 1);
+           }
+           break;
+       default:
+           break;
+   }
+});
+
+
+:: StoryStylesheet [stylesheet]
+/* ===== Fond + overlay (géré par ton JS via #story) ===== */
+html, body, #story {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0b;
+    font-family: "Merriweather", serif;
+}
+
+/* ===== Box texte en bas (passage actif) ===== */
+#passages {
+    position: relative;
+    z-index: 2;
+}
+
+#passages > .passage {
+    position: fixed;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    max-width: 1100px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 12px;
+    padding: 2rem;
+    color: #f5f5f5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    line-height: 1.6;
+    font-size: 1.6rem;
+    z-index: 10;
+}
+
+/* ===== Page de titre ===== */
+#title-overlay {
+    position: fixed;
+    inset: 0;
+    cursor: pointer;
+    background: transparent; /* on garde l'image de fond visible */
+    z-index: 1500; /* sous l'UI bar et le Lexique */
+}
+
+/* Cacher la box du passage quand on est sur TitleScreen */
+#passages > .passage[data-passage="TitleScreen"] {
+    display: none !important;
+}
+
+/* Assure que l'UI bar passe au-dessus de l’overlay titre */
+#ui-bar {
+    position: fixed;
+    z-index: 5000;
+}
+
+/* ===== Lexique (si tu utilises le bouton global) ===== */
+#lexique-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 0.6rem 1.2rem;
+    background: rgba(0,0,0,0.7);
+    color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background .3s;
+    z-index: 6000; /* au-dessus de l’overlay titre */
+}
+
+#lexique-btn:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+/* Quand le lexique est ouvert, on masque la box narrative */
+body.lexique-open #passages {
+    display: none !important;
+}
+
+#lexique-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: transparent;
+    z-index: 7000;
+}
+
+#lexique-box {
+    position: fixed;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    max-width: 860px;
+    height: 70vh;
+    background: rgba(0,0,0,0.6);
+    border-radius: 12px;
+    padding: 2rem;
+    color: #f5f5f5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    line-height: 1.6;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#lexique-close {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    background: none;
+    border: none;
+    color: #f5f5f5;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.lexique-list {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding-right: .5rem;
+}
+
+.lexique-list p {
+    margin: .6rem 0;
+}
+
+/* ==== UI bar SugarCube : neutralisation complète ==== */
+#ui-bar,
+#ui-bar-toggle {
+    display: none !important;
+}
+
+/* Supprime tout décalage éventuel à gauche quand la UI bar est masquée */
+#story,
+#passages {
+    margin-left: 0 !important;
+}
+
+/* ==== Bouton + menu Hamburger (remplacement UI bar) ==== */
+#hamburger-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 6500; /* > #lexique-btn (6000) et > #title-overlay (1500) */
+    box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    transition: background .25s ease;
+}
+
+#hamburger-btn:hover,
+#hamburger-btn:focus {
+    background: rgba(255, 255, 255, 0.15);
+    outline: none;
+}
+#hamburger-btn:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+#hamburger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;                 /* occupe toute la hauteur */
+    width: min(80vw, 340px);       /* colonne à gauche */
+    background: rgba(0, 0, 0, 0.86);
+    color: #f5f5f5;
+    border-radius: 0 10px 10px 0;  /* coins arrondis côté droit */
+    padding: 14px;
+    padding-top: 96px;             /* décale les items sous le bouton hamburger (+ marge) */
+    z-index: 6400;                 /* sous le bouton mais au-dessus du reste */
+    box-shadow: 0 6px 16px rgba(0,0,0,.6);
+    backdrop-filter: blur(2px);
+    display: block;                /* visible quand aria-hidden=false */
+    overflow-y: auto;              /* scroll si contenu long */
+    overflow-x: hidden;            /* évite tout débordement à droite */
+}
+
+/* Piloté par aria-hidden via JS */
+#hamburger-menu[aria-hidden="true"] { display: none; }
+#hamburger-menu[aria-hidden="false"] { display: block; }
+
+#hamburger-menu .hm-item {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;        /* garantit que la largeur inclut padding/border */
+    text-align: left;
+    margin: 6px 0;
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.06);
+    color: #f5f5f5;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background .2s ease, transform .05s ease;
+}
+
+#hamburger-menu .hm-item:hover,
+#hamburger-menu .hm-item:focus {
+    background: rgba(255, 255, 255, 0.16);
+    outline: none;
+}
+#hamburger-menu .hm-item:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+#hamburger-menu .hm-item:active {
+    transform: translateY(1px);
+}
+
+/* Liens (ex: GitHub) stylés comme des items */
+#hamburger-menu .hm-link {
+    text-decoration: none;
+    overflow: hidden;            /* ne dépasse pas à droite */
+    text-overflow: ellipsis;     /* coupe proprement si trop long */
+    white-space: nowrap;         /* évite le wrap */
+    max-width: 100%;             /* borne à la largeur interne */
+}
+#hamburger-menu .hm-item.hm-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#hamburger-menu .hm-icon {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+}
+#hamburger-menu .hm-icon svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+    #hamburger-btn {
+        top: 12px;
+        left: 12px;
+        width: 36px;
+        height: 36px;
+        font-size: 1.1rem;
+        line-height: 36px;
+    }
+    #hamburger-menu {
+        width: 80vw;     /* colonne plus large sur mobile */
+        height: 100vh;   /* toujours pleine hauteur */
+        padding-top: 84px;  /* offset adapté au bouton plus petit sur mobile (+ marge) */
+    }
+}
+
+/* ==== Sécurité supplémentaire : retirer tout décalage wrapper SugarCube ==== */
+#ui-bar-body,
+body.ui-bar-open #ui-bar-body,
+body.ui-bar #ui-bar-body {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* ===== Élévation des boîtes de dialogue SugarCube au-dessus de l’overlay Titre ===== */
+#ui-overlay { z-index: 6800 !important; }
+#ui-dialog  { z-index: 6900 !important; }
+
+/* ==== Habillage SugarCube: interface Sauvegardes (UI.saves / &lt;&lt;saves&gt;&gt;) ==== */
+/* Portée stricte dans #ui-dialog pour n'impacter que la boîte de dialogue */
+#ui-dialog #saves {
+    padding: 8px 6px 4px;
+    color: #f5f5f5;
+}
+
+/* Bandeau d’info/contrôles (si présent) */
+#ui-dialog #saves .controls,
+#ui-dialog #saves #saves-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin: 6px 2px 10px;
+}
+#ui-dialog #saves .controls input[type="text"],
+#ui-dialog #saves .controls input[type="search"],
+#ui-dialog #saves #saves-controls input[type="text"],
+#ui-dialog #saves #saves-controls input[type="search"] {
+    background: rgba(255,255,255,0.06);
+    color: #f5f5f5;
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 8px;
+    padding: 8px 10px;
+    outline: none;
+}
+#ui-dialog #saves .controls input[type="text"]:focus,
+#ui-dialog #saves .controls input[type="search"]:focus,
+#ui-dialog #saves #saves-controls input[type="text"]:focus,
+#ui-dialog #saves #saves-controls input[type="search"]:focus {
+    border-color: rgba(255,255,255,0.35);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.12);
+}
+
+/* Liste des slots */
+#ui-dialog #saves #saves-list {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 6px; /* pour laisser passer la scrollbar */
+}
+@media (min-width: 880px) {
+    #ui-dialog #saves #saves-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Carte slot / emplacement vide */
+#ui-dialog #saves .slot,
+#ui-dialog #saves .empty {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    padding: 12px;
+    transition: background .2s ease, border-color .2s ease, transform .05s ease;
+}
+#ui-dialog #saves .slot:hover,
+#ui-dialog #saves .empty:hover {
+    background: rgba(255, 255, 255, 0.10);
+    border-color: rgba(255, 255, 255, 0.20);
+}
+#ui-dialog #saves .slot:active,
+#ui-dialog #saves .empty:active {
+    transform: translateY(1px);
+}
+
+/* Titre/label/timestamp (noms courants utilisés par SugarCube) */
+#ui-dialog #saves .label {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+#ui-dialog #saves .title,
+#ui-dialog #saves [class*="title"] {
+    font-size: .95rem;
+    opacity: .95;
+}
+#ui-dialog #saves .timestamp {
+    margin-top: 4px;
+    font-size: .9rem;
+    opacity: .8;
+}
+
+/* Zone de boutons d’action par slot */
+#ui-dialog #saves .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+/* Style de base des boutons */
+#ui-dialog #saves .buttons button,
+#ui-dialog #saves button {
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgba(255, 255, 255, 0.08);
+    color: #f5f5f5;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: .95rem;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: background .2s ease, transform .05s ease, border-color .2s ease;
+}
+#ui-dialog #saves .buttons button:hover,
+#ui-dialog #saves button:hover {
+    background: rgba(255, 255, 255, 0.16);
+}
+#ui-dialog #saves .buttons button:active,
+#ui-dialog #saves button:active {
+    transform: translateY(1px);
+}
+#ui-dialog #saves .buttons button:focus-visible,
+#ui-dialog #saves button:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+/* Variantes d’importance: save (primaire), load (secondaire), delete (danger) */
+#ui-dialog #saves .buttons .save,
+#ui-dialog #saves .save {
+    background: linear-gradient(180deg, rgba(46,204,113,.25), rgba(46,204,113,.18));
+    border-color: rgba(46,204,113,.35);
+}
+#ui-dialog #saves .buttons .save:hover,
+#ui-dialog #saves .save:hover {
+    background: linear-gradient(180deg, rgba(46,204,113,.35), rgba(46,204,113,.25));
+}
+
+#ui-dialog #saves .buttons .load,
+#ui-dialog #saves .load {
+    background: linear-gradient(180deg, rgba(52,152,219,.25), rgba(52,152,219,.18));
+    border-color: rgba(52,152,219,.35);
+}
+#ui-dialog #saves .buttons .load:hover,
+#ui-dialog #saves .load:hover {
+    background: linear-gradient(180deg, rgba(52,152,219,.35), rgba(52,152,219,.25));
+}
+
+#ui-dialog #saves .buttons .delete,
+#ui-dialog #saves .delete {
+    background: rgba(192,57,43,.10);
+    color: #f2b6b2;
+    border-color: rgba(192,57,43,.45);
+}
+#ui-dialog #saves .buttons .delete:hover,
+#ui-dialog #saves .delete:hover {
+    background: rgba(192,57,43,.20);
+    color: #ffd6d3;
+}
+
+/* Petits ajustements divers (compat largeur, ellipsis) */
+#ui-dialog #saves .buttons button,
+#ui-dialog #saves button,
+#ui-dialog #saves .slot,
+#ui-dialog #saves .empty {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+#ui-dialog #saves .title,
+#ui-dialog #saves [class*="title"] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
