@@ -15,12 +15,12 @@ Mon Ascension
 }
 
 
-:: Acte1Choix1A [bg-Acte1Choix1A] {"position":"575,750","size":"100,100"}
+:: Acte1Choix1A [bg-Acte1Choix1A] {"position":"625,825","size":"100,100"}
 Les forums sentent l'adrénaline et la fièvre du profit rapide. Des prophètes en JPEG promettent la lune, des trolls jouent aux pompiers pyromanes. Tu lis des manifestes bricolés à la sueur tiède, des diagrammes qui confondent l’absurde et le sacré. Chaque ligne confirme que l’intelligence colle mal aux rendements promis, mais la contagion marche très bien. Tu inspires cette vapeur toxique, juste assez pour t’engourdir le jugement sans anesthésier le désir.
 [[Continuer|Acte1Rejoin1]]
 
 
-:: Acte1Choix1B [bg-Acte1Choix1B] {"position":"750,675","size":"100,100"}
+:: Acte1Choix1B [bg-Acte1Choix1B] {"position":"775,675","size":"100,100"}
 Tu balances un tweet anonyme, moitié blague, moitié appât, assez ambigu pour séduire les cyniques et piéger les candides. Le message file comme une bouteille jetée d’un balcon: tu espères casser une vitre sans attirer le gardien. Les premiers likes tombent, l’ego se redresse; soudain, la honte ressemble à un investissement amortissable. Tu sens la machine sociale s’ébrouer, prête à avaler ton récit et recracher un symbole qui n’a jamais été toi.
 [[Continuer|Acte1Rejoin1]]
 
@@ -35,9 +35,11 @@ Tu refuses, très publiquement, pour la beauté du geste et la photo de profil. 
 [[Continuer|Acte1Rejoin2]]
 
 
-:: Acte1Hub [bg-Acte1Hub] {"position":"375,775","size":"100,100"}
-Curseur prêt au départ: tu hésites entre façade ironique et vraie faim de pump. Sur pump.fun, créer un ticker, choisir supply, décocher une taxe pour appâter, promettre un LP burn et prier pour un listing DEX propre: tout tient en trois clics et un joli mensonge. Tu te dis que c’est “performance artistique”, alors que tu vises surtout la courbe. Ici, le timing est roi et la nuance un bug; on récompense ceux qui pressent Mint avant de penser.
-[[Fouiller les forums|Acte1Choix1A]]
+:: Acte1Hub [bg-Acte1Hub] {"position":"375,750","size":"100,100"}
+Curseur au bord du départ, tu balances entre deux masques : la façade ironique, qui te protège comme un sketch bancal, et la vraie faim de pump, viscérale, qui siffle dans ta poitrine comme une alarme. La fenêtre de pump.fun est ouverte, aseptisée, presque trop simple. Choisir un ticker – trois lettres absurdes ou un mot venimeux – c’est déjà écrire une épopée minuscule. Tu ajustes la supply et griffonnes une promesse de LP burn qui n’engage à rien. Tout repose sur trois clics au maximum, un joli mensonge emballé comme un rituel.
+
+Tu essaies de te convaincre que c’est une “performance artistique”, une expérimentation ironique sur l’avidité contemporaine. Mais tes doigts tremblent moins d’ironie que de désir brut : ce n’est pas l’art qui t’obsède, c’est la courbe. Cette ligne verte qui monte, comme une respiration artificielle, et qui pourrait, juste un instant, faire croire que tu contrôles tout. Ici, le timing est roi, la nuance un bug du système. On ne récompense pas l’esprit, mais la vitesse : ceux qui cliquent Mint avant même d’avoir pensé sont couronnés, les autres deviennent spectateurs.
+[[Fouiller les forums en quête d'un whitepaper|Acte1Choix1A]]
 [[Créer un compte anonyme et tweeter|Acte1Choix1B]]
 
 
@@ -52,12 +54,12 @@ Les notifications crépitent comme une friteuse: brûlantes, grasses, délicieus
 [[La hype enfle|Acte2Hub]]
 
 
-:: Acte2Choix1A [bg-Acte2Choix1A] {"position":"25,150","size":"100,100"}
+:: Acte2Choix1A [bg-Acte2Choix1A] {"position":"50,100","size":"100,100"}
 Tu réponds posément, avec ce ton d’expert qui marche surtout sur ceux qui veulent déjà te croire. Tu doses l’ironie pour paraître lucide, le sérieux pour paraître rassurant. Les questions sont des balles molles; tu les renvoies en souriant, ravi de ce tennis truqué. À la fin, tu n’as rien dit et pourtant la conviction a monté. Magie blanche: on appelle ça communication.
 [[Continuer|Acte2Rejoin1]]
 
 
-:: Acte2Choix1B [bg-Acte2Choix1B] {"position":"150,150","size":"100,100"}
+:: Acte2Choix1B [bg-Acte2Choix1B] {"position":"125,225","size":"100,100"}
 Tu choisis le silence, posture d’ascète dans un temple de sirènes. Ne rien dire devient ton meilleur argument: plus tu t’absentes, plus on projette sur toi des promesses prêtes-à-porter. C’est confortable, jusqu’au moment où l’image te remplace. Tu regardes la foule vénérer un reflet qui te ressemble à peine; tu te contentes d’encaisser la ferveur tant que l’illusion tient debout.
 [[Continuer|Acte2Rejoin1]]
 
@@ -89,7 +91,7 @@ Un hashtag te glisse des mains et se met à courir tout seul, escorté par des c
 [[Sommet absurde|Acte3Hub]]
 
 
-:: Acte3Bifurcation [bg-Acte3Bifurcation] {"position":"125,300","size":"100,100"}
+:: Acte3Bifurcation [bg-Acte3Bifurcation] {"position":"125,350","size":"100,100"}
 Le théâtre t’offre trois masques: le survivant opportun, le moine fatigué, le martyr teigneux. Peu importe lequel tu choisis, la scène est la même et le public s’en tirera avec la morale de son choix. Tu n’as plus qu’à livrer la posture, l’algorithme fera le reste. C’est presque reposant d’être réduit à un archétype rentable.
 [[Relancer par l’absurde|Acte3FinaleA1]]
 [[Tirer sa révérence|Acte3FinaleB1]]
@@ -134,7 +136,7 @@ Un tweet ambigu—dix mots paresseux, mille interprétations armées. La foule s
 [[Accuser et affronter|Acte3Bifurcation]]
 
 
-:: Fin-Chute [bg-Fin-Chute] {"position":"1100,350","size":"100,100"}
+:: Fin-Chute [bg-Fin-Chute] {"position":"1075,350","size":"100,100"}
 Tout s’est effondré sans bruit. Les notifications cessent, les serveurs ne répondent plus, les rumeurs t’ont déjà englouti. Il n’y a même pas de scandale grandiose, juste une disparition molle, comme une pierre jetée dans une eau trop sombre.  
 
 Tu attends un dernier message, un signe, une insulte, mais rien. Le silence devient épais, presque solide, et tu comprends que c’est la seule trace qui reste : le vide. Tes anciens alliés se taisent, tes ennemis n’ont plus besoin de toi. Même tes propres mots, relus en cachette, te semblent étrangers, ridicules.  
@@ -146,7 +148,7 @@ La chute est interminable, et c’est ça, la punition : tu n’atteins jamais l
 
 
 
-:: Fin-Oubli [bg-Fin-Oubli] {"position":"525,500","size":"100,100"}
+:: Fin-Oubli [bg-Fin-Oubli] {"position":"650,500","size":"100,100"}
 Le flux t’oublie avec une indifférence professionnelle. Tu réapprends des gestes sans métrique: marcher, cuisiner, lire sans rafraîchir. Parfois la jalousie te pique, douce et ridicule, devant le nouveau prophète jetable. Tu souris en coin: tu sais ce que coûte le feu d’artifice et combien il éclaire mal. Revenir n’est jamais impossible; c’est juste rarement souhaitable.
 [[Fin|TitleScreen]]
 
@@ -196,9 +198,9 @@ $(document).one(":passagedisplay", function (ev) {
 </script>
 
 
-:: Start [bg-Start] {"position":"125,675","size":"100,100"}
+:: Start [bg-Start] {"position":"125,700","size":"100,100"}
 Le matin gris se reflète sur l’écran froid et, dessus, tout parle memecoin: shitcoins à ticker débile, bonding curve qui grimpe, promesses de 100x en 24h. Sur pump.fun, des pages de mint alignent les graphiques comme des pièges à mouche; on y connecte son wallet, on jette du SOL, et on jure de brûler la LP après le launch. Les threads répètent DEX, slippage, tax 0/0, “no rug” en caps. Tu sais que c’est un carnaval de liquidité et de dopamine, mais ton pouce glisse déjà vers le bouton. Hors-scène, on ne loot jamais rien.
-[[Entrer dans l’arène|Acte1Hub]]
+[[Entrer dans l’arène et créer son memecoin|Acte1Hub]]
 
 
 
@@ -216,7 +218,7 @@ $(document).on("click", "#lexique-btn", function () {
 
 
 
-:: TitleScreen {"position":"975,450","size":"100,100"}
+:: TitleScreen {"position":"1025,500","size":"100,100"}
 <div id="title-overlay" aria-label="Cliquer pour commencer"></div>
 
 
@@ -281,9 +283,18 @@ $(document).on(':passagedisplay', function () {
         '.tw-settings' // etc. ajoute ce qu'il faut ici
     ].join(',');
 
+    // Horodatage entrée TitleScreen pour ignorer les clics involontaires (anti-« clic hérité »)
+    let __titleEnterAt = 0;
+    // Flag prêt à accepter un clic utilisateur (après un court délai)
+    let __titleReadyClick = false;
+
     // Handler global namespacé
     function titleClickHandler(ev) {
         if ((window.SugarCube && SugarCube.State ? SugarCube.State.passage : State.passage) !== 'TitleScreen') return;
+        // Exiger un clic utilisateur véritable
+        //
+                // Ignore le très court délai initial pour éviter un clic hérité
+                if (typeof performance !== 'undefined' && performance.now() - __titleEnterAt < 220) return;
         if ($('body').hasClass('lexique-open')) return;
         if ($(ev.target).closest(UI_BLOCK).length) return;
 
@@ -307,13 +318,26 @@ $(document).on(':passagedisplay', function () {
                 $('#title-overlay').show();
             }
 
+            $('#title-overlay').off('click.titleStart');
             $(document).off('click.titleStart');
+            // Horodatage: empêche un clic hérité de lancer 'Start' immédiatement
+            __titleEnterAt = (typeof performance !== 'undefined' ? performance.now() : Date.now());
+            __titleReadyClick = false;
+            // Écouteur à la fois sur l’overlay et en secours sur document
+            $('#title-overlay').on('click.titleStart', titleClickHandler);
             $(document).on('click.titleStart', titleClickHandler);
-            console.log('TitleScreen : handler activé');
+            console.log('TitleScreen : overlay prêt');
+            // Désactive momentanément les clics hérités qui déclenchent Start immédiatement
+            $('#title-overlay').css('pointer-events','none');
+            setTimeout(function () {
+                $('#title-overlay').css('pointer-events','auto');
+                __titleReadyClick = true; // prêt à accepter un clic utilisateur
+            }, 200);
 
         } else {
-            $('#title-overlay').remove();
+            $('#title-overlay').off('click.titleStart').remove();
             $(document).off('click.titleStart');
+            __titleReadyClick = false;
         }
     });
 })();
@@ -332,6 +356,8 @@ $(document).one(':storyready', function () {
                     '<button id="lexique-close">✕</button>',
                     '<h2>Lexique</h2>',
                         '<div class="lexique-list">',
+                            '<p><b>Cryptomonnaie</b> : Actif numérique décentralisé reposant sur une blockchain ; transférable entre pairs, sans banques ou intermédiaires.</p>',
+                            '<p><b>Mème / memecoin</b> : Blague culturelle virale ; un memecoin est un jeton crypto construit sur cet imaginaire.</p>',
                             '<p><b>pump.fun</b> : Plateforme (Solana) qui permet de créer des memecoins facilement.</p>',
                             '<p><b>Ticker</b> : Abréviation/nom court d’un token (ex. symbole en bourse).</p>',
                             '<p><b>Supply</b> : Quantité totale de tokens émise.</p>',
@@ -352,7 +378,6 @@ $(document).one(':storyready', function () {
                             '<p><b>Listing</b> : Action d’inscrire un token sur une plateforme d’échange (centralisée ou décentralisée).</p>',
                             '<p><b>Burn</b> : Destruction permanente de tokens en les rendant inaccessibles.</p>',
                             '<p><b>Whitepaper</b> : Document décrivant la vision, la technique et l’économie d’un projet.</p>',
-                            '<p><b>Mème / memecoin</b> : Blague culturelle virale ; un memecoin est un token fondé sur cet imaginaire.</p>',
                             '<p><b>Lambo soon</b> : Mème signifiant l’attente d’un gain rapide et massif.</p>',
                         '</div>',
                 '</div>',
@@ -397,7 +422,7 @@ $(document).one(':storyready', function () {
                     '<button class="hm-item" data-action="forward" role="menuitem">Suivant ⟶</button>',
                     '<button class="hm-item" data-action="saves" role="menuitem">💾 Sauvegardes / Chargements</button>',
                     '<button class="hm-item" data-action="restart" role="menuitem">⟳ Redémarrer</button>',
-                    '<a class="hm-item hm-link" role="menuitem" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub (ouvre dans un nouvel onglet)">',
+                    '<a class="hm-item hm-link" role="menuitem" href="https://github.com/matBorgeaud/mon_ascension/" target="_blank" rel="noopener noreferrer" aria-label="GitHub (ouvre dans un nouvel onglet)">',
                         '<span class="hm-icon" aria-hidden="true" style="display:inline-flex; vertical-align:middle; margin-right:8px;">',
                             '<svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true">',
                                 '<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>',
@@ -710,7 +735,8 @@ body.lexique-open #passages {
     display: none;
     position: fixed;
     inset: 0;
-    background: transparent;
+    background: rgba(0,0,0,0.45);       /* assombrit l’arrière-plan pour la lisibilité */
+    backdrop-filter: blur(2px);          /* léger flou derrière */
     z-index: 7000;
 }
 
@@ -719,40 +745,83 @@ body.lexique-open #passages {
     bottom: 7%;
     left: 50%;
     transform: translateX(-50%);
-    width: 70%;
-    max-width: 860px;
+    width: 76%;
+    max-width: 960px;
     height: 70vh;
-    background: rgba(0,0,0,0.6);
-    border-radius: 12px;
-    padding: 2rem;
+    background: rgba(18,18,20,0.90);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 14px;
+    padding: 2rem 2rem 1.5rem;
     color: #f5f5f5;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-    line-height: 1.6;
-    font-size: 1.6rem;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.55);
+    line-height: 1.7;
+    font-size: 1.25rem;
     display: flex;
     flex-direction: column;
 }
 
 #lexique-close {
     position: absolute;
-    top: .5rem;
-    right: .5rem;
-    background: none;
-    border: none;
+    top: .6rem;
+    right: .6rem;
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 50%;
     color: #f5f5f5;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     cursor: pointer;
+    transition: background .2s ease, transform .05s ease, border-color .2s ease;
 }
+#lexique-close:hover { background: rgba(255,255,255,0.16); }
+#lexique-close:active { transform: translateY(1px); }
+#lexique-close:focus-visible { outline: 2px solid #ffffff; outline-offset: 2px; }
 
 .lexique-list {
     flex: 1;
     overflow-y: auto;
     margin-top: 1rem;
     padding-right: .5rem;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255,255,255,0.35) transparent;
+}
+.lexique-list::-webkit-scrollbar {
+    width: 10px;
+}
+.lexique-list::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.25);
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+.lexique-list::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .lexique-list p {
-    margin: .6rem 0;
+    margin: .7rem 0;
+    padding: .75rem .9rem;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-left: 4px solid rgba(255,255,255,0.25);
+    border-radius: 10px;
+    line-height: 1.65;
+}
+.lexique-list p b {
+    color: #ffffff;
+    letter-spacing: .01em;
+}
+#lexique-box h2 {
+    margin: 0 0 .8rem;
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: .02em;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    padding-bottom: .6rem;
 }
 
 /* ==== UI bar SugarCube : neutralisation complète ==== */
