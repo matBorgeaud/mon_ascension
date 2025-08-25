@@ -1,12 +1,12 @@
 # Mon Ascension
 
-![Illustration](images/illustration.png)  
-
 ## Description
 Une fiction interactive où l’on glisse, sourire crispé, dans une ascension à la Ponzi — sauf qu’ici, l’habit d’époque pose pour la photo pendant que les memecoins font les poches. Le texte parle de memecoins; les images, elles, paradent en « finance noire des années 1920 ». Anachronisme? Plutôt un miroir: mêmes promesses exponentielles, même confiance élastique, autre contexte. Le joueur incarne un funambule qui, comme Ponzi, se découvre condamné à continuer — pousser toujours plus loin, espérant repousser l'inexorable chute.
 
 ### Inspirations
 - Ambiance et état d’esprit librement inspirés de « Mon ascension » de Charles Ponzi. Aucune citation textuelle; l’influence est celle du vertige et de l’auto‑enchaînement: on performe la réussite jusqu’à ce qu’elle vous traîne.
+
+![Illustration](images/illustration.png)  
 
 ### Ton et choix esthétiques
 - Images au style « époque » (noir financier, costumes, fumée) sur un récit contemporain des memecoins: décalage volontaire, satire assumée.
