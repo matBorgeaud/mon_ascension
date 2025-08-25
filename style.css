@@ -1,0 +1,490 @@
+/* ===== Fond + overlay (géré par ton JS via #story) ===== */
+html, body, #story {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0b;
+    font-family: "Merriweather", serif;
+}
+
+/* ===== Box texte en bas (passage actif) ===== */
+#passages {
+    position: relative;
+    z-index: 2;
+}
+
+#passages > .passage {
+    position: fixed;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    max-width: 1100px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 12px;
+    padding: 2rem;
+    color: #f5f5f5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    line-height: 1.6;
+    font-size: 1.6rem;
+    z-index: 10;
+}
+
+/* ===== Page de titre ===== */
+#title-overlay {
+    position: fixed;
+    inset: 0;
+    cursor: pointer;
+    background: transparent; /* on garde l'image de fond visible */
+    z-index: 1500; /* sous l'UI bar et le Lexique */
+}
+
+/* Cacher la box du passage quand on est sur TitleScreen */
+#passages > .passage[data-passage="TitleScreen"] {
+    display: none !important;
+}
+
+/* Assure que l'UI bar passe au-dessus de l’overlay titre */
+#ui-bar {
+    position: fixed;
+    z-index: 5000;
+}
+
+/* ===== Lexique (si tu utilises le bouton global) ===== */
+#lexique-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 0.6rem 1.2rem;
+    background: rgba(0,0,0,0.7);
+    color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background .3s;
+    z-index: 6000; /* au-dessus de l’overlay titre */
+}
+
+#lexique-btn:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+/* Quand le lexique est ouvert, on masque la box narrative */
+body.lexique-open #passages {
+    display: none !important;
+}
+
+#lexique-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);       /* assombrit l’arrière-plan pour la lisibilité */
+    backdrop-filter: blur(2px);          /* léger flou derrière */
+    z-index: 7000;
+}
+
+#lexique-box {
+    position: fixed;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 76%;
+    max-width: 960px;
+    height: 70vh;
+    background: rgba(18,18,20,0.90);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 14px;
+    padding: 2rem 2rem 1.5rem;
+    color: #f5f5f5;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.55);
+    line-height: 1.7;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#lexique-close {
+    position: absolute;
+    top: .6rem;
+    right: .6rem;
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 50%;
+    color: #f5f5f5;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background .2s ease, transform .05s ease, border-color .2s ease;
+}
+#lexique-close:hover { background: rgba(255,255,255,0.16); }
+#lexique-close:active { transform: translateY(1px); }
+#lexique-close:focus-visible { outline: 2px solid #ffffff; outline-offset: 2px; }
+
+.lexique-list {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding-right: .5rem;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255,255,255,0.35) transparent;
+}
+.lexique-list::-webkit-scrollbar {
+    width: 10px;
+}
+.lexique-list::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.25);
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+.lexique-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.lexique-list p {
+    margin: .7rem 0;
+    padding: .75rem .9rem;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-left: 4px solid rgba(255,255,255,0.25);
+    border-radius: 10px;
+    line-height: 1.65;
+}
+.lexique-list p b {
+    color: #ffffff;
+    letter-spacing: .01em;
+}
+#lexique-box h2 {
+    margin: 0 0 .8rem;
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: .02em;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    padding-bottom: .6rem;
+}
+
+/* ==== UI bar SugarCube : neutralisation complète ==== */
+#ui-bar,
+#ui-bar-toggle {
+    display: none !important;
+}
+
+/* Supprime tout décalage éventuel à gauche quand la UI bar est masquée */
+#story,
+#passages {
+    margin-left: 0 !important;
+}
+
+/* ==== Bouton + menu Hamburger (remplacement UI bar) ==== */
+#hamburger-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 6500; /* > #lexique-btn (6000) et > #title-overlay (1500) */
+    box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    transition: background .25s ease;
+}
+
+#hamburger-btn:hover,
+#hamburger-btn:focus {
+    background: rgba(255, 255, 255, 0.15);
+    outline: none;
+}
+#hamburger-btn:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+#hamburger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;                 /* occupe toute la hauteur */
+    width: min(80vw, 340px);       /* colonne à gauche */
+    background: rgba(0, 0, 0, 0.86);
+    color: #f5f5f5;
+    border-radius: 0 10px 10px 0;  /* coins arrondis côté droit */
+    padding: 14px;
+    padding-top: 96px;             /* décale les items sous le bouton hamburger (+ marge) */
+    z-index: 6400;                 /* sous le bouton mais au-dessus du reste */
+    box-shadow: 0 6px 16px rgba(0,0,0,.6);
+    backdrop-filter: blur(2px);
+    display: block;                /* visible quand aria-hidden=false */
+    overflow-y: auto;              /* scroll si contenu long */
+    overflow-x: hidden;            /* évite tout débordement à droite */
+}
+
+/* Piloté par aria-hidden via JS */
+#hamburger-menu[aria-hidden="true"] { display: none; }
+#hamburger-menu[aria-hidden="false"] { display: block; }
+
+#hamburger-menu .hm-item {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;        /* garantit que la largeur inclut padding/border */
+    text-align: left;
+    margin: 6px 0;
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.06);
+    color: #f5f5f5;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background .2s ease, transform .05s ease;
+}
+
+#hamburger-menu .hm-item:hover,
+#hamburger-menu .hm-item:focus {
+    background: rgba(255, 255, 255, 0.16);
+    outline: none;
+}
+#hamburger-menu .hm-item:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+#hamburger-menu .hm-item:active {
+    transform: translateY(1px);
+}
+
+/* Liens (ex: GitHub) stylés comme des items */
+#hamburger-menu .hm-link {
+    text-decoration: none;
+    overflow: hidden;            /* ne dépasse pas à droite */
+    text-overflow: ellipsis;     /* coupe proprement si trop long */
+    white-space: nowrap;         /* évite le wrap */
+    max-width: 100%;             /* borne à la largeur interne */
+}
+#hamburger-menu .hm-item.hm-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#hamburger-menu .hm-icon {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+}
+#hamburger-menu .hm-icon svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+    #hamburger-btn {
+        top: 12px;
+        left: 12px;
+        width: 36px;
+        height: 36px;
+        font-size: 1.1rem;
+        line-height: 36px;
+    }
+    #hamburger-menu {
+        width: 80vw;     /* colonne plus large sur mobile */
+        height: 100vh;   /* toujours pleine hauteur */
+        padding-top: 84px;  /* offset adapté au bouton plus petit sur mobile (+ marge) */
+    }
+}
+
+/* ==== Sécurité supplémentaire : retirer tout décalage wrapper SugarCube ==== */
+#ui-bar-body,
+body.ui-bar-open #ui-bar-body,
+body.ui-bar #ui-bar-body {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* ===== Élévation des boîtes de dialogue SugarCube au-dessus de l’overlay Titre ===== */
+#ui-overlay { z-index: 6800 !important; }
+#ui-dialog  { z-index: 6900 !important; }
+
+/* ==== Habillage SugarCube: interface Sauvegardes (UI.saves / &lt;&lt;saves&gt;&gt;) ==== */
+/* Portée stricte dans #ui-dialog pour n'impacter que la boîte de dialogue */
+#ui-dialog #saves {
+    padding: 8px 6px 4px;
+    color: #f5f5f5;
+}
+
+/* Bandeau d’info/contrôles (si présent) */
+#ui-dialog #saves .controls,
+#ui-dialog #saves #saves-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin: 6px 2px 10px;
+}
+#ui-dialog #saves .controls input[type="text"],
+#ui-dialog #saves .controls input[type="search"],
+#ui-dialog #saves #saves-controls input[type="text"],
+#ui-dialog #saves #saves-controls input[type="search"] {
+    background: rgba(255,255,255,0.06);
+    color: #f5f5f5;
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 8px;
+    padding: 8px 10px;
+    outline: none;
+}
+#ui-dialog #saves .controls input[type="text"]:focus,
+#ui-dialog #saves .controls input[type="search"]:focus,
+#ui-dialog #saves #saves-controls input[type="text"]:focus,
+#ui-dialog #saves #saves-controls input[type="search"]:focus {
+    border-color: rgba(255,255,255,0.35);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.12);
+}
+
+/* Liste des slots */
+#ui-dialog #saves #saves-list {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 6px; /* pour laisser passer la scrollbar */
+}
+@media (min-width: 880px) {
+    #ui-dialog #saves #saves-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Carte slot / emplacement vide */
+#ui-dialog #saves .slot,
+#ui-dialog #saves .empty {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    padding: 12px;
+    transition: background .2s ease, border-color .2s ease, transform .05s ease;
+}
+#ui-dialog #saves .slot:hover,
+#ui-dialog #saves .empty:hover {
+    background: rgba(255, 255, 255, 0.10);
+    border-color: rgba(255, 255, 255, 0.20);
+}
+#ui-dialog #saves .slot:active,
+#ui-dialog #saves .empty:active {
+    transform: translateY(1px);
+}
+
+/* Titre/label/timestamp (noms courants utilisés par SugarCube) */
+#ui-dialog #saves .label {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+#ui-dialog #saves .title,
+#ui-dialog #saves [class*="title"] {
+    font-size: .95rem;
+    opacity: .95;
+}
+#ui-dialog #saves .timestamp {
+    margin-top: 4px;
+    font-size: .9rem;
+    opacity: .8;
+}
+
+/* Zone de boutons d’action par slot */
+#ui-dialog #saves .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+/* Style de base des boutons */
+#ui-dialog #saves .buttons button,
+#ui-dialog #saves button {
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgba(255, 255, 255, 0.08);
+    color: #f5f5f5;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: .95rem;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: background .2s ease, transform .05s ease, border-color .2s ease;
+}
+#ui-dialog #saves .buttons button:hover,
+#ui-dialog #saves button:hover {
+    background: rgba(255, 255, 255, 0.16);
+}
+#ui-dialog #saves .buttons button:active,
+#ui-dialog #saves button:active {
+    transform: translateY(1px);
+}
+#ui-dialog #saves .buttons button:focus-visible,
+#ui-dialog #saves button:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+/* Variantes d’importance: save (primaire), load (secondaire), delete (danger) */
+#ui-dialog #saves .buttons .save,
+#ui-dialog #saves .save {
+    background: linear-gradient(180deg, rgba(46,204,113,.25), rgba(46,204,113,.18));
+    border-color: rgba(46,204,113,.35);
+}
+#ui-dialog #saves .buttons .save:hover,
+#ui-dialog #saves .save:hover {
+    background: linear-gradient(180deg, rgba(46,204,113,.35), rgba(46,204,113,.25));
+}
+
+#ui-dialog #saves .buttons .load,
+#ui-dialog #saves .load {
+    background: linear-gradient(180deg, rgba(52,152,219,.25), rgba(52,152,219,.18));
+    border-color: rgba(52,152,219,.35);
+}
+#ui-dialog #saves .buttons .load:hover,
+#ui-dialog #saves .load:hover {
+    background: linear-gradient(180deg, rgba(52,152,219,.35), rgba(52,152,219,.25));
+}
+
+#ui-dialog #saves .buttons .delete,
+#ui-dialog #saves .delete {
+    background: rgba(192,57,43,.10);
+    color: #f2b6b2;
+    border-color: rgba(192,57,43,.45);
+}
+#ui-dialog #saves .buttons .delete:hover,
+#ui-dialog #saves .delete:hover {
+    background: rgba(192,57,43,.20);
+    color: #ffd6d3;
+}
+
+/* Petits ajustements divers (compat largeur, ellipsis) */
+#ui-dialog #saves .buttons button,
+#ui-dialog #saves button,
+#ui-dialog #saves .slot,
+#ui-dialog #saves .empty {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+#ui-dialog #saves .title,
+#ui-dialog #saves [class*="title"] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -2,6 +2,7 @@
 
 
 - pump.fun — Plateforme (Solana) qui permet de créer des memecoins facilement.
+- Cryptomonnaie - Actif numérique décentralisé reposant sur une blockchain ; transférable entre pairs, sans banques ou intermédiaires
 - Ticker — Abréviation/nom court d’un token (ex. symbole en bourse).
 - Supply — Quantité totale de tokens émise.
 - Taxe / tax 0/0 — Paramètre de frais sur les transactions, ici mis à 0% achat/vente.
