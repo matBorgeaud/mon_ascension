@@ -6,11 +6,12 @@ Une fiction interactive où l’on glisse, sourire crispé, dans une ascension �
 ### Inspirations
 - Ambiance et état d’esprit librement inspirés de « Mon ascension » de Charles Ponzi. Aucune citation textuelle; l’influence est celle du vertige et de l’auto‑enchaînement: on performe la réussite jusqu’à ce qu’elle vous traîne.
 
-![Illustration](images/illustration.png)  
-
 ### Ton et choix esthétiques
 - Images au style « époque » (noir financier, costumes, fumée) sur un récit contemporain des memecoins: décalage volontaire, satire assumée.
 - Sarcasme léger: l’optimisme technico‑magique, les promesses de 100x et les bots qui « aident »… jusqu’à ce qu’ils aident surtout la gravité.
+
+## Capture
+![Illustration](images/illustration.png)  
 
 ## Démo en ligne
 Jouer directement: https://fi.borgeaud.online
