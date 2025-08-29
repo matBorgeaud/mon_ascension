@@ -15,7 +15,7 @@ Une fiction interactive où l’on glisse, sourire crispé, dans une ascension �
 
 ## Démo en ligne
 Jouer directement: https://fi.borgeaud.online
-
+Ou sur itch.io: https://matborg.itch.io/mon-ascension
 ## Modules, librairies et outils utilisés
 - Outil de création: Twine au format SugarCube 2.36.1 (export web).
 - Kilo Code: un outil "d'IA" intégré à VS Code.
