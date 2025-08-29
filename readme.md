@@ -18,7 +18,7 @@ Jouer directement: https://fi.borgeaud.online
 Ou sur itch.io: https://matborg.itch.io/mon-ascension
 ## Modules, librairies et outils utilisés
 - Outil de création: Twine au format SugarCube 2.36.1 (export web).
-- Kilo Code: un outil "d'IA" intégré à VS Code. Ce dernier a été utilisé autant pour le code que pour la création des dialogues et raffiner la structure narrative globale (cf. les logs kilo code).
+- Kilo Code: un outil "d'IA" intégré à VS Code. Ce dernier a été utilisé autant pour le code que pour la création de la quasi intégralité des dialogues et raffiner la structure narrative globale (cf. les logs kilo code).
 - gpt-5-2025-08-07: utilisé notamment pour créér de bons prompts pour kilo code afin d'être plus précis et de mieux gérer ma gestion des coûts avec l'API.
 - Midjourney: un outil utilisé pour générer tout les visuels.
 - Côté joueur: un navigateur moderne suffit; aucune dépendance à installer.
