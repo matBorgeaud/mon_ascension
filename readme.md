@@ -35,6 +35,8 @@ Ce projet a été développé dans le cadre du cours de fiction interactive disp
   - Illustrations de passages: [`images/story/`](images/story/)
 - Fichiers de données et documentation:
   - [`prompt_img.json`](prompt_img.json) — prompts des images Midjourney.
+  - [`kilo_code.md`](kilo_code_task_aug-25-2025_10-59-48-pm.md) — prompts kilo code. Il y a deux fichiers.
+  - [`prompt_GPT.md`](prompts_openaAI-GPT5.md) - prompt gpt 5.
   - [`lexique.md`](lexique.md) — lexique des notions (pump.fun, LP, DEX, etc.).
   - Fichier source Twine: [`MonAscension.twee`](MonAscension.twee) (format SugarCube 2.36.1).
 
